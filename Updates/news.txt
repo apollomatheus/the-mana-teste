@@ -1,0 +1,118 @@
+##3 .:: Atualização 14/01/2012 ::.
+##0
+##0 Primeiro update do ano de 2012 e com muitas
+##0 novidades.
+##2 Mais informações com o jornaleiro.
+##0
+##3 .:: Atualização 07/09/2011 ::.
+##0
+##0 A novidades são muitas. Principalmente em
+##0 relação a novos mapas. Existe muito a ser
+##0 explorado com certeza.
+##2 Infelizmente, vamos ficar devendo novas quests.
+##0
+##3 .:: Atualização 22/05/2011 ::.
+##0
+##0 Como é de se esperar, nosso servidor esta cada
+##0 dia melhor. Agora contamos com nova hospedagem
+##0 e com isso nosso servidor suportá mais joga-
+##0 dores online. E para comemorar oferecemos um
+##0 mês de XP dobrado... é por conta da casa!!!
+##0
+##3 .:: Atualização Pós-Páscoa ::.
+##0
+##0 O evento de páscoa acabou. Mas você ainda
+##0 pode aproveitar o resto de seus ovos até o
+##0 final do mês. E também pode vender seus ovos
+##0 dourados por um bom preço.
+##3 A páscoa vai deixar saudades!!!
+##0
+##3 .:: Atualização 08/02/2011 ::.
+##0
+##0 Esta atualização vem com muitas novidades.
+##0 Novas quests, itens, equipamentos e roupas.
+##3 Não se descuide! MORRER PODE CUSTAR CARO!!!
+##0
+##3 .:: Atualização 20/12/2010 ::.
+##0
+##0 Além das missões especiais de natal, este
+##0 update vem com 2 novas missões. Procure por
+##0 novidades nas notícias do jornaleiro.
+##3 Desejamos aos jogadores um Feliz Natal!
+##0
+##3 .:: Atualização 13/11/2010 ::.
+##0
+##0 Este update vem como um grande alívio aos mais
+##0 fortes. Já que agora é possível navegar até
+##0 terras desconhecidas e enfrentar monstros
+##0 realmente fortes.
+##3 Novatos... não arrisquem nesta viagem !
+##0
+##3 .:: Atualização 02/11/2010 ::.
+##0
+##0 Viaje em grande estilo no navio do capitão
+##0 Mirc. Por enquanto ele não está cobrando por
+##0 seus serviços, mas a promoção é por tempo
+##0 limitado.
+##0
+##3 .:: Atualização 30/09/2010 ::.
+##0
+##0 O The Mana World BR passou por uma grande
+##0 reforma. E após muitos dias de trabalho
+##0 tudo está disponível aos jogadores.
+##0 Confira as novidades com o jornaleiro.
+##3 Tá demorando baixar mas vale a pena !
+##0
+##3 .:: Atualização 19/07/2010 ::.
+##0
+##0 * Incluído do set do Dragão
+##0 * Novo sprite para o monstro dragão
+##0 * Corrigido bugs do banqueiro e do baú da
+##0 pensão
+##0
+##3 .:: Novo Servidor ::.
+##3 18/05/2010
+##0
+##0 O The Mana World Brasil agora esta com um
+##0 servidor novo, devemos agradecer a todos que
+##0 doaram para a aquisição desse novo server.
+##0 Basicamente o que melhora é que teremos
+##0 menos lag, maior uptime e esperamos não ter
+##0 mais as instabilidades do servidor antigo
+##0
+##3 .:: Atualização 09/05/2010 ::.
+##0
+##0 * A Pensão Bhramir foi ampliada. Alugue o seu
+##0 quarto o quanto antes.
+##0 * Missão do óleo de monstro disponível.
+##0 * Acho que o mapa 005 foi reflorestado! Oo
+##0 - Aquele que ficar preso no mapa chame por
+##0 um GM digitando o comando:
+##3 @wgm socorro!
+##0
+##3 .:: Atualização 21/04/2010 ::.
+##0
+##0 * O TMW-BR agora funciona no Mana Source.
+##0 * Novo mapa acima da praia e acima da fazenda.
+##0 * A quest de matar Trasgo Roxo é uma novidade.
+##0 * Colar Horcrux ganhou mais atributos.
+##0
+##3 .:: O TMW-BR Precisa de Sua Ajuda ::.
+##3 06/01/2010
+##0
+##0 Contribua com o The Mana World Brasil.
+##0 Faça sua doação e ajude a manter o nosso
+##0 servidor vivo. Mais informações acesse:
+##0 http://forums.themanaworld.com.br/
+##0 viewtopic.php?f=3&t=1110
+##0
+##3 .:: Conteúdo personalizado ::.
+##3 28/05/2009
+##0
+##0 Estamos reconstruindo um servidor totalmente
+##0 personalizado com conteúdo próprio, caso queira
+##0 contribuir ajudando a criar os mapas, as quests
+##0 e os NPCs do nosso servidor acesse o fórum:
+##0 http://forums.themanaworld.com.br
+##0
+##2 Administração
