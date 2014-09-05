@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="129" height="89" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Vila dos Pescadores"/>
+  <property name="pasta" value="VilaPescadores"/>
+ </properties>
+ <tileset firstgid="1" name="colision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="cabana_in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="83" name="canana_in X3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="99" name="in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="355" name="in X3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="371" name="pots" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Pots_x2.png" width="512" height="64"/>
+ </tileset>
+ <layer name="Ground" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ccW7TMBTH8ScxWrF/GUL0Aki5QXsBDjJxgokTIOAGcAPYCcZOwHasOSLWHMsvbdq+PCf7TvqoiY004/drZ1dyLkXkEgAAAAAAAAAAAAAAAADO6HWw7sTrN0lb2r5Nri3GcsqP5RxddyS5vlba02vv2h7qXfA+2CWa7jVv3yb//iVl4KYjyfWN0r5Nrr1re6jmSFYZqGk80dcjedd2jhk4dizWGYifg9+k/7lYak+vvWs75v9Xy5yXfs/GcTx5Bsbyru0p8+455/sysEnaNgkysJwMlN73aa21dss5iuv8nfT3A2TALgPae90rA3Gdv5P+fuAlZ8ByzrUM7BuT5RzFdf5O+uv+9v53cFuo/9IzYDnnNWZg6L1+F9wn920m/sj/XHjXdq4ZKP0uLQM1rAnzDLT3f7s279qSAZ8M/AsegscKarukDGhqzADrAZvx1Pw50L7vH5U+79rONQP5XvCQfaFnBpawNwQAAAAAAAAAAAAAAAAAAAC0n/VAnxiOJ57p/SzlZ/9o/VbjuZD+M5rifS7v967rOTLQPnOoGei3Gk880/tFys/+0fqtxnPVzcWH7jXe5/J+77qO0Sg+DvQ1huOJZzbHsDzfWTo38Ckz97MFWo33nfW1Gk88szmG5fnOoTMk64E+77qSAdsMrLrX/Nl9c82AdqZr6MyX5fmueG53DMszvvvOk62Udu+6niMDF+LzOVDb2b7axjNlBq4G6j9lBkprxNusb+o1YeqVPO8P032jd13HyGubrwO0dcFUc15aH9xnfV5rwtZbed4fpvtG77rOPQPfgx8yjwws4W9BXuu85qtC/a0z8DP4JfVmoJ0T7XuM+HfKu66nZOBQU835UAamePaP9j7X9rBxbN51PTYD+bowva4xA577AjIw3ZyXvi8oPf9n6gxo32PEsXnXdYzS3jDPQMnUc+61BqttPAAAAAAAAAAAAAAAAAAAAK0n5sIQqGSzAAA=
+  </data>
+ </layer>
+ <layer name="Ground2" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cW0oEMRAF0HwobkBxAT5mDdmKu3OndmMCRVPjozGOds6BgurbQ6iG+clPlQIAAAAAAAAAAPCzrpe6adX7GrJt3vtR1rOvkhmyrLZ85DwzuFvqvlXva8i2ee9HWc++TWbIstrykfN8V730ADs8LXVqFfvTmbz3o6xnPyYzZFnMAYC5uAfwl+4BXIZ7wO94CQUAAAAAAAAAAAAAAADAscV9P3EXUdk8Z+9n8tmOmf+4g6aL+37iLqKyec7ez+TI/4Fz+35K+Xgf0Cweyvu3r3uYnkv+7V/5DQCwz+vOdwAAAAAAAAAAAAAAAAAAR/cGYem9jmSzAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cWW/TQBDA8awQgneuvJciJK6SJyTulkvibunBfSht03IjClQoIPFJgK/AZyvwyBjvkunKTlqaXdvp/yeNbE/c7HizTZyHTK0GAAAAAAAAAAAAAAAAAOFtX2c+Vg1+LmY9iWZOfjZnv8rqEkdMdv6g5A9lPNYvh006dr1HrmGPR2R7NGA92lvv2NW1pOpYUvkqGrd1n5LtadPJDdv947I9IXEy4PX5Y+flRu32jGzPBp7vBXn+RTvGnGznM+rSdeh8VV2T+q/ba1hR+cuSuyJxNeD16bG75Zwbkr8Zeb7H7Hi6Ll1Ht3qr4oHU/zDjGu5K7p7E/YDXlzV2Xj2JR5J/HHi+z3vP79aArkvX0a3eMrojMSExU3QhAIDSakT+XJuupZ9PSdzyjl1uyaRbl5sOXNOcnYOmmotl2X9qo6n29XFV6Ll1+y4/ZNLvYPpeYUqdE9NQgXP6PmfsYyo/XKHXvB92Brxe93+t12WiyDVw0WTHpQFZAz8kfkr8kvi9xr/ZG/h6d8jzn5PY1WWcmHM+bbJjZkDWQNUl32uL+GwCNovJogvwlK2eRBlrAgAAAAAAAAAAAAAAAAAAADaqV8+fmD2APkgsSzzz8s8j1uD0uu7YvZH66YBZ3WNI9/wZUT2AGurxWP1/WhILEotevh1n+L+yeiH5XG8kfy6rwu8xlPyuz/X8cT123G9PV2rh+//o3j/aK8m9lnijHmvZ3kDzAevJ682kud5IMfo1hdCtx1BWr58i+v8UaS29hVzPphj9mkLo1mMoq9dP6P4/28z/RSjr6S0Uo18TyiP5res7Xusg9phO1CW+Se67evxrLc3tNqvPxeBw94TJ/d7+nHuw5B51n8SsSfvEtFgDG6J7+ui+NF9Mus07J5RR9Xq6NdBWubbprAHENWZ7g/j9GvttPGMN+GKugV7r/5PU8dl+b3bxcUDX50TyviAxGfj6nqzzfeCFbF9GmPOV3qf8U/W+NLcLHt/v+ZT3PnDBrD43pC0m7de0dY3jVG0N6N5fVTNlOv2hAPRfGfvslK2mstUDAAAAAAAAAAAAAAAAAAA2jz8QeroAZLMAAA==
+  </data>
+ </layer>
+ <layer name="Top" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cy3LTMBTGcXlb2iZk27RV2XIdbium8BK8Q8tlDwtel8IzdIOVWETVWJYD59iy+//NnGniODOf3RMlXvgYAwAAAAAAAAAAAAAAAMg5qmvZ1EXwuGubr2PlPPvm0siTypQ7N9qZJC2Cx49bXm/b5lnZKBuLlm19c1nZKH+1ZUpliFnBHFrogby598Cjup40ddnyOj3QnulVNZ8eSPW4Rw9sM72p7m67TWSIWfk44uiBPJfpLOqBY9aBDSuYwwu/m3y96LntoUKeVKZUhvcDZZKUOj5/LP44HwTvWRu948v1ZBcrFSKyT6b4M2MFc2hxx2eDde6qrmsz3jqX6slnI+Vx7kMPtBmrB8KevG62XY2Yx+nqgbfR74Q59cBhj/dawRzevj351Oh/996XdeBnXTd1/drjvVY8zS6Pu/5+Xe2uyVI9EG7XyBNm6mPKPeAc1ed72Zzzkx7vtcp53PXXOT2g7rSu85ZaNX9N4nVXZwXkWRndPF2ZfIWZVkb/HEk7yFRun7nnKTWTpNKOr7Q8pWYCAAAAAAAAAAAAAAAAAACQlJq102fezlDziPrWkHkuEo+nNovI6bp/InePnxXM4ZV233Gfe99S58nKRlFDD3SjB7pZwRzeVHrgg9nd6/p8wDwaSuyBm38srTxtwvuyWQdkTWUdCKXu07eCOTSl5n6Ec2jiGTua9/tPpQfGui9bgz/Gb3V9T+zj1oPPZjsPxM0I+WS2M0KsUh6f5Wtm34NoBohGntRnJPwNsE7sM4V5VE6fz92Q33cuz8vmf/sjs+9t9NzKx7kzG8fPanKfgbnMpXPaeuBd9NwfbzwbxA6UJ+VwgHWgtHlNGsK1zs/++hLt43/z/K5rUW3/OlYhjzvnyyq728bJiD0w1rwmDbmZ1V2sYA5vn3VgMWAPlDKvSUOfHkj9BrayUTZKvS44rfttXe1m1s7puiCctRPP0jGJ7WPMI2qb/VPifKSpzSJy/mfGyn2YRVNaHg1T64GPheXJ7QMAAAAAAAAAAAAAAAAAAKDlD2k1ZnBkswAA
+  </data>
+ </layer>
+ <layer name="Top2" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WMREAMAgEQaKACI3/OhYYOobd9l7ARwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAHnl6DQCY7RV31x8AAAAAAAAAAAAAAAAAYLEPQVl8oWSzAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="140" visible="0" opacity="0.27">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3S24rkMAwFwJD//+h9aghGdpzZseTplKDo+AI5LeU8juMEAAAAAAAAAAAAAAAAAACAxa4V7bVn2e+/u1vVq8weUTvv3jewS5beeWXfome+S1vR3vWsKkNvr7pfO2Qib8aj86w8T/Z26l1VJvJmPDrPyvNkb6feVWUib8ajO1nZentZGX6Sc6dsrJlxdH5357dy3FV0r7JvvVzVM+V35/ups/Pc3snINsqZneeuf9Gavy2q3n575w15nuQ9g1++y2ytfH+0zszwPz2pyMfa2Ufru9ohT2aPZqq9Wz1b1sx+5pvYIU9lj2ZyVs+W9d9FdYad8+yaCQAAAAAAAAAAAAAAAAAAAAAAYGdRRWfR+g2iHsz0sTo367+Fu/03GfXg7b35Zr0anX3O32Dmv7+5P9+uV6Ozz3lmnruqyDO6Uz1X1s5/9tvIzrlDf+56U5GT3G/i+ludJapdclXnIGfObZ3Nb3Sele+a4bq3Q9+qc5Az516dl9+zs67IV/n+s3lu71XPlHXzj2b9+T0769X5rpkq3n/Xo94d/r6jeZ6tzHzV75/JU5WP9fM/mudjcn9lnqe1Mk+0rspDrus8oxrtr8zztDLzzOSsnitr7Tjj3TLtlgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAef8AGbkza4C1AQA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="sairHospital" type="warp" x="3200" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="928"/>
+   </properties>
+  </object>
+  <object name="sair1" type="warp" x="864" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="1184"/>
+    <property name="dest_y" value="1216"/>
+   </properties>
+  </object>
+  <object name="sair2" type="warp" x="2016" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="2144"/>
+   </properties>
+  </object>
+  <object name="sair3" type="warp" x="832" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4288"/>
+    <property name="dest_y" value="3456"/>
+   </properties>
+  </object>
+  <object name="sairComercio1" type="warp" x="2016" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="2720"/>
+    <property name="dest_y" value="2368"/>
+   </properties>
+  </object>
+  <object name="20x20" x="1120" y="1056" width="640" height="640"/>
+  <object name="20x20" x="2272" y="1056" width="640" height="640"/>
+  <object name="sair4" type="warp" x="3168" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="2336"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/feet-furboots-male.png" width="38" height="33"/>
+
+	<include file="feet-boots-male.xml"/>
+
+</sprite>

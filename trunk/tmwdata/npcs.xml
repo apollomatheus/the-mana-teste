@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file maps the NPC appearance IDs the server is sending to the spritesheet(s).
+
+    Note that it is possible to give an NPC multiple sprites. In this case the
+    sprites are drawn in order of declaration.
+
+    IDs 100-199 should be used for unanimated NPCs (100 is added for 0.0 client compatibility)
+-->
+<npcs>
+	<npc id="48"><sprite variant="61">npc.xml</sprite></npc><!-- Storage Master -->
+	<npc id="49"><sprite variant="49">npc.xml</sprite></npc><!-- Storage Master (desert) -->
+
+	<npc id="100"><sprite variant="0">npc.xml</sprite></npc><!-- Desert Barber -->
+	<npc id="101"><sprite variant="1">npc.xml</sprite></npc><!-- Oriental trader -->
+	<npc id="102"><sprite variant="2">npc.xml</sprite></npc><!-- The Trainer -->
+	<npc id="103"><sprite variant="3">npc.xml</sprite></npc><!-- Guy in black cloak -->
+	<npc id="104"><sprite variant="4">npc.xml</sprite></npc><!-- Soldier with sword -->
+	<npc id="105"><sprite variant="5">npc.xml</sprite></npc><!-- Santa Clause -->
+	<npc id="106"><sprite variant="6">npc.xml</sprite></npc><!-- Girl with pink hair and blue top -->
+	<npc id="107"><sprite variant="7">npc.xml</sprite></npc><!-- Scholar guy with glasses -->
+	<npc id="108"><sprite variant="8">npc.xml</sprite></npc><!-- Woman with green hair and pink dress -->
+	<npc id="109"><sprite variant="9">npc.xml</sprite></npc><!-- Miner -->
+	<npc id="110"><sprite variant="10">npc.xml</sprite></npc><!-- Soldier with spear -->
+	<npc id="111"><sprite variant="11">npc.xml</sprite></npc><!-- Treasure chest -->
+	<npc id="112"><sprite variant="12">npc.xml</sprite></npc><!-- Barkeeper -->
+	<npc id="113"><sprite variant="13">npc.xml</sprite></npc><!-- Gnome with hat -->
+	<npc id="114"><sprite variant="14">npc.xml</sprite></npc><!-- Little blue-haired girl -->
+	<npc id="115"><sprite variant="15">npc.xml</sprite></npc><!-- Guy with red hair and green cloak -->
+	<npc id="116"><sprite variant="16">npc.xml</sprite></npc><!-- Old geezer -->
+	<npc id="117"><sprite variant="17">npc.xml</sprite></npc><!-- Boy with brown hair -->
+	<npc id="118"><sprite variant="18">npc.xml</sprite></npc><!-- Nurse without hat -->
+	<npc id="119"><sprite variant="19">npc.xml</sprite></npc><!-- Nurse with hat -->
+	<npc id="120"><sprite variant="20">npc.xml</sprite></npc><!-- Guy with brown hair in plain clothes -->
+	<npc id="121"><sprite variant="21">npc.xml</sprite></npc><!-- Soldier -->
+	<npc id="122"><sprite variant="22">npc.xml</sprite></npc><!-- Soldier with sword and shield -->
+	<npc id="123"><sprite variant="23">npc.xml</sprite></npc><!-- Soldier with sword, shield, and helmet -->
+	<npc id="124"><sprite variant="24">npc.xml</sprite></npc><!-- Guy with black hair in plain clothes -->
+	<npc id="125"><sprite variant="25">npc.xml</sprite></npc><!-- Guy with black clothes -->
+	<npc id="126"><sprite variant="26">npc.xml</sprite></npc><!-- Guy with black clothes and axe -->
+	<npc id="127"><sprite variant="27">npc.xml</sprite></npc><!-- empty (Invisible NPC) -->
+	<npc id="128"><sprite variant="28">npc.xml</sprite></npc><!-- Nomad, standing -->
+	<npc id="129"><sprite variant="29">npc.xml</sprite></npc><!-- Snowman -->
+	<npc id="130"><sprite variant="30">npc.xml</sprite></npc><!-- Paperboy (wtf? how does this one fit in a fantasy game?) -->
+	<npc id="131"><sprite variant="31">npc.xml</sprite></npc><!-- Nomad, sitting -->
+	<npc id="132"><sprite variant="32">npc.xml</sprite><particlefx>graphics/particles/nomadpipe.particle.xml</particlefx></npc><!-- Nomad, sitting with pipe -->
+	<npc id="133"><sprite variant="33">npc.xml</sprite></npc><!-- Captain Kirk -->
+	<npc id="134"><sprite variant="34">npc.xml</sprite></npc><!-- Mr. Spock -->
+	<npc id="135"><sprite variant="35">npc.xml</sprite></npc><!-- Guy with sword over shoulder -->
+	<npc id="136"><sprite>npc-creepysurgeon.xml</sprite></npc><!-- Creepy surgeon guy -->
+	<npc id="137"><sprite variant="37">npc.xml</sprite></npc><!-- Metrosexual guy with pink jacket on stool -->
+	<npc id="138"><sprite variant="38">npc.xml</sprite></npc><!-- Zombie pirate captain-->
+	<npc id="139"><sprite variant="39">npc.xml</sprite></npc><!-- Girl in playboy bunny costume -->
+	<npc id="140"><sprite variant="40">npc.xml</sprite></npc><!-- Woman with green dress and apron -->
+	<npc id="141"><sprite variant="41">npcs/npc-lumberjack.xml</sprite></npc><!-- Lumberjack -->
+	<npc id="142"><sprite variant="42">npc.xml</sprite></npc><!-- Farmer -->
+	<npc id="143"><sprite variant="43">npc.xml</sprite></npc><!-- Indian Chief-->
+	<npc id="144"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Boulder -->
+	<npc id="145"><sprite variant="45">npc.xml</sprite></npc><!-- Magic mouth -->
+	<npc id="146"><sprite variant="46">npc.xml</sprite></npc><!-- Mechanic -->
+	<npc id="147"><sprite variant="47">npc.xml</sprite></npc><!-- Mechanic with tool -->
+	<npc id="148"><sprite variant="48">npc.xml</sprite></npc><!-- Chef -->
+	<npc id="149"><sprite variant="49">npc.xml</sprite></npc><!-- Desert Banker -->
+	<npc id="150"><sprite variant="50">npc.xml</sprite></npc><!-- Investigator -->
+	<npc id="151"><sprite variant="51">npc.xml</sprite></npc><!-- Lora Tay -->
+	<npc id="152"><sprite variant="52">npc.xml</sprite></npc><!-- Desert Bard -->
+	<npc id="153"><sprite variant="53">npc.xml</sprite></npc><!-- Old Wizard -->
+	<npc id="154"><sprite variant="54">npc.xml</sprite></npc><!-- Old Woman -->
+	<npc id="155"><sprite variant="55">npc.xml</sprite></npc><!-- Construction Worker -->
+	<npc id="156"><sprite variant="56">npc.xml</sprite></npc><!-- Desert Barber/Desert Man -->
+	<npc id="157"><sprite variant="57">npc.xml</sprite></npc><!-- Trainer 2 -->
+	<npc id="158"><sprite variant="58">npc.xml</sprite></npc><!-- Young Male Wizard -->
+	<npc id="159"><sprite variant="59">npc.xml</sprite></npc><!-- Old man -->
+	<npc id="160"><sprite variant="60">npc.xml</sprite></npc><!-- Generic Man -->
+	<npc id="161"><sprite variant="61">npc.xml</sprite></npc><!-- Generic Banker -->
+	<npc id="162"><sprite variant="62">npc.xml</sprite></npc><!-- Generic Desert Man -->
+	<npc id="163"><sprite variant="63">npc.xml</sprite></npc><!-- Flower Girl -->
+	<npc id="164"><sprite variant="64">npc.xml</sprite></npc><!-- Wedding Officiator -->
+	<npc id="165"><sprite variant="65">npc.xml</sprite></npc><!-- Dimond/Magician -->
+	<npc id="166"><sprite variant="66">npc.xml</sprite><particlefx>graphics/particles/manaseed.particle.xml</particlefx></npc><!-- Mana Seed -->
+	<npc id="167"><sprite variant="67">npc.xml</sprite></npc><!-- Young Witch -->
+	<npc id="168"><sprite variant="68">npc.xml</sprite></npc><!-- Middle-Aged Wizard -->
+	<npc id="169"><sprite variant="69">npc.xml</sprite></npc><!-- Miner -->
+	<npc id="170"><sprite variant="70">npc.xml</sprite></npc><!-- Christmas Reinboo -->
+	<npc id="171"><sprite variant="71">npc.xml</sprite></npc><!-- Injured Mouboo -->
+	<npc id="172"><sprite variant="72">npc.xml</sprite></npc><!-- Katze -->
+	<npc id="173"><sprite variant="73">npc.xml</sprite></npc><!-- Easter Bunny -->
+	<npc id="174"><sprite variant="74">npc.xml</sprite></npc><!-- Aisha, Omar's daughter -->
+
+	<npc id="184"><sprite variant="84">npc.xml</sprite></npc>
+	<npc id="185"><sprite variant="85">npc.xml</sprite></npc>
+	<npc id="186"><sprite variant="86">npc.xml</sprite></npc>
+	<npc id="187"><sprite variant="87">npc.xml</sprite></npc>
+	<npc id="188"><sprite variant="88">npc.xml</sprite></npc>
+
+	<npc id="200"><sprite>npc-test.xml</sprite><particlefx>graphics/particles/circle.particle.xml</particlefx></npc> <!-- NPC de Teste -->
+	<npc id="201"><sprite>player_female_base.xml</sprite><sprite>feet-boots-female.xml|#4f2d29,c89078</sprite><sprite>leg-chaps-female.xml</sprite><sprite>chest-shorttanktop-female.xml</sprite><sprite>hairstyle11.xml|#bb2222,ffee33</sprite></npc><!-- Demonstração de um NPC quepode ser construído a partir de múltiplas sprites pré-existente. Ao usar o sprite player padrão e equipamentos player normal pode economizar tempo, é geralmente melhor criar um novo NPC como um gráfico a partir do zero. -->
+	<npc id="202"><particlefx>graphics/particles/hellblaze.particle.xml</particlefx></npc><!-- An NPC made only from a particle effect. -->
+
+	<!-- Todos os NPCs do servidor TMW-BR serão definidos a partir do id 300. -->
+
+	<npc id="0"/> <!-- Vazio -->
+
+	<npc id="300"><sprite variant="0">npcs-br.xml</sprite></npc> <!-- Invisivel -->
+	<npc id="301"><sprite variant="1">npcs-br.xml</sprite></npc> <!-- Aviadora: Loira de verstido Rosa -->
+	<npc id="302"><sprite variant="2">npcs-br.xml</sprite></npc> <!-- Guarda Real: Loiro de Farda Vermelha -->
+	<npc id="303"><sprite variant="3">npcs-br.xml</sprite></npc> <!-- Guarda Real: Idoso de Farda Preta -->
+	<npc id="304"><sprite variant="4">npcs-br.xml</sprite></npc> <!-- Pirata: Perna de Pau e Tapa-olho -->
+	<npc id="305"><sprite variant="5">npcs-br.xml</sprite></npc> <!-- Lutador de Kung-Fu -->
+	<npc id="306"><sprite variant="6">npcs-br.xml</sprite></npc> <!-- Soldado: Elmo Escaravelho e Espada -->
+	<npc id="307"><sprite variant="7">npcs-br.xml</sprite></npc> <!-- Soldado: Elmo Escaravelho, Lança e Escudo -->
+	<npc id="308"><sprite variant="8">npcs-br.xml</sprite></npc> <!-- Soldado: Elmo Escaravelho e Arco -->
+	<npc id="309"><sprite variant="9">npcs-br.xml</sprite></npc> <!-- Menino: Jornaleiro -->
+	<npc id="310"><sprite variant="10">npcs-br.xml</sprite></npc> <!-- Pescador: Careca -->
+	<npc id="311"><sprite variant="11">npcs-br.xml</sprite></npc> <!-- Pescador: Chapéu de Palha -->
+	<npc id="312"><sprite variant="12">npcs-br.xml</sprite></npc> <!-- Bruxa -->
+	<npc id="313"><sprite variant="13">npcs-br.xml</sprite></npc> <!-- Careca Cabeludo e Troncudo -->
+	<npc id="314"><sprite variant="14">npcs-br.xml</sprite></npc> <!-- Indigena Jovem -->
+	<npc id="315"><sprite variant="15">npcs-br.xml</sprite></npc> <!-- Cidadão de Terno Colonial-->
+	<npc id="316"><sprite variant="16">npcs-br.xml</sprite></npc> <!-- Fada Vespa Loira com Chifre de Rena-->
+	<npc id="317"><sprite variant="17">npcs-br.xml</sprite></npc> <!-- Fada Vespa Ruiva com vestido verde-->
+	<npc id="318"><sprite variant="18">npcs-br.xml</sprite></npc> <!-- Fada Borboleta Castanha com vestido purpura-->
+	<npc id="319"><sprite variant="19">npcs-br.xml</sprite></npc> <!-- Duende Loiro -->
+	<npc id="320"><sprite variant="20">npcs-br.xml</sprite></npc> <!-- Duende Ruivo -->
+	<npc id="321"><sprite variant="21">npcs-br.xml</sprite></npc> <!-- Duende Samambaia -->
+	<npc id="322"><sprite variant="22">npcs-br.xml</sprite></npc> <!-- Eremita sentado e encapusado de verde -->
+	<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc> <!-- Mágico com Capa Longa -->
+	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc> <!-- Bella: Ciagana -->
+	<npc id="325"><sprite variant="25">npcs-br.xml</sprite><particlefx>graphics/particles/emanar-alma-pedra.xml</particlefx>
+</npc> <!-- Vitalina: Bruxa vermelha -->
+	<npc id="326"><sprite variant="26">npcs-br.xml</sprite>
+		<particlefx>graphics/particles/emanar-alma-pedra.xml</particlefx>
+	</npc>
+	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
+	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
+	<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc>
+
+	<npc id="330"><sprite>npcs/bruxa.xml</sprite></npc>
+	<npc id="331"><sprite variant="0">npcs/bruxa-levitando.xml</sprite></npc>
+	<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
+	<npc id="333"><sprite variant="0">npc-cartola.xml</sprite></npc> <!-- cartola -->
+	<npc id="334"> <!-- cartola puft -->
+		<sprite>npc-cartola-puft.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+	</npc>
+	<npc id="335"> <!-- Menina Fantasma -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/npc-menina-fantasma.xml</sprite>
+		<sprite>generic-shadow-small-circle2.xml</sprite>
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+	</npc>
+	<npc id="336"> <!-- Morte de Férias -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+		<sprite>npcs/npc-morteferias.xml</sprite>
+		<sprite>npcs/npc-morteferias-emote.xml</sprite>
+	</npc>
+	<npc id="337"> <!-- Homenagem do Halloween 2010 -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/npc-halloween2010-tmwbr.xml</sprite>
+	</npc>
+	<npc id="338"> <!-- Barqueiro do Submundo -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+		<sprite>npcs/npc-barqueiro.xml</sprite>
+	</npc>
+	<npc id="339"> <!-- pequeno círculo branco -->
+		<sprite variant="0">npcs-br-32.xml</sprite>
+		<particlefx>graphics/particles/circulos.particle.xml</particlefx>
+	</npc>
+	<npc id="340"> <!-- armadilha de aço (em espera) -->
+		<sprite>npcs/npc-armadilha-aco.xml</sprite>
+	</npc>
+	<npc id="341"> <!-- armadilha de aço (armada) -->
+		<sprite>npcs/npc-armadilha-aco2.xml</sprite>
+	</npc>
+	<npc id="342"> <!-- armadilha de aço (disparo) -->
+		<sprite>npcs/npc-armadilha-aco3.xml</sprite>
+	</npc>
+	<npc id="343"> <!-- coelho rosa -->
+		<sprite>npcs/npc-lilica.xml</sprite>
+	</npc>
+	<npc id="344"> <!-- Memorial Páscoa 2011 -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<particlefx>graphics/particles/emanar-alma-pedra.xml</particlefx>
+		<sprite>npcs/npc-pascoa2011-tmwbr.xml</sprite>
+	</npc>
+	<npc id="345"><sprite variant="0">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua -->
+	<npc id="346"><sprite variant="1">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua -->
+	<npc id="347"><sprite variant="2">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua quebrada -->
+	<npc id="348">
+		<sprite>npcs/npc-portao-esq1a.xml</sprite>
+		<sprite>npcs/npc-portao-esq1b.xml</sprite>
+	</npc>
+	<npc id="349"><sprite>npcs/banhista.xml</sprite></npc>
+
+	<npc id="350"><sprite variant="0">npcs/npcs01.xml</sprite></npc> <!-- menina da garça -->
+	<npc id="351"><sprite variant="1">npcs/npcs01.xml</sprite></npc> <!-- crozue -->
+	<npc id="352"><sprite variant="2">npcs/npcs01.xml</sprite></npc> <!-- maya -->
+	<npc id="353"><sprite variant="3">npcs/npcs01.xml</sprite></npc> <!-- pescador -->
+	<npc id="354"><sprite variant="4">npcs/npcs01.xml</sprite></npc> <!-- peixeiro -->
+	<npc id="355"><sprite variant="5">npcs/npcs01.xml</sprite></npc> <!-- peixeiro -->
+	<npc id="356"><sprite variant="6">npcs/npcs01.xml</sprite></npc> <!-- Epitáfio -->
+	<npc id="357"><sprite variant="7">npcs/npcs01.xml</sprite></npc>
+	<npc id="358"><sprite variant="8">npcs/npcs01.xml</sprite></npc>
+	<npc id="359"><sprite variant="9">npcs/npcs01.xml</sprite></npc>
+
+	<npc id="360"><sprite>npcs/pescador1.xml</sprite></npc>
+	<npc id="361"><sprite>npcs/garca.xml</sprite></npc>
+	<npc id="362"><sprite>npcs/iris-ofelia.xml</sprite></npc>
+	<npc id="363"><sprite>npcs/corda.xml</sprite></npc>
+	<npc id="364"><sprite>npcs/bruxa-vassoura.xml</sprite></npc>
+	<npc id="365"><sprite>npcs/dracula1-aparicao.xml</sprite></npc>
+	<npc id="366"><sprite>npcs/dracula2-voo.xml</sprite></npc>
+	<npc id="367"><sprite>npcs/dracula3-transformacao.xml</sprite></npc>
+	<npc id="368"><sprite>npcs/dracula4-furia.xml</sprite></npc>
+	<npc id="369"><sprite>npcs/dracula5-desaparecer.xml</sprite></npc>
+	<npc id="370">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/bruxa-livro.xml</sprite>
+	</npc>
+	<npc id="371">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/jack-lanterna.xml</sprite>
+	</npc>
+	<npc id="372">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/cesta-doces-abobora.xml</sprite>
+	</npc>
+	<npc id="373">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="0">npcs/mumias.xml</sprite>
+	</npc>
+	<npc id="374">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="1">npcs/mumias.xml</sprite>
+	</npc>
+	<npc id="375">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="2">npcs/mumias.xml</sprite>
+	</npc>
+
+
+
+
+
+
+
+	<npc id="376">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/lobisomem.xml</sprite>
+	</npc>
+	<npc id="377">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/bruxa-morgana.xml</sprite>
+	</npc>
+	<npc id="378">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/cavaleiro-amaldicoado.xml</sprite>
+	</npc>
+	<npc id="379">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="0">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="380">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="1">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="381">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="2">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="382">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="3">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="383"> <!-- Homenagem do Halloween 2011 -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+		<sprite>npcs/npc-halloween2011-tmwbr.xml</sprite>
+	</npc>
+	<npc id="384">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/flora.xml</sprite>
+	</npc>
+
+	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
+	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
+	<npc id="402"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/espada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Espada -->
+	<npc id="403"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada somente Partículas -->
+
+	<!-- npcs de premiação -->
+	<npc id="410"><sprite variant="0">npcs/npc-premios.xml</sprite></npc> <!-- vazio -->
+	<npc id="411"><sprite variant="1">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="412"><sprite variant="2">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="413"><sprite variant="3">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="414"><sprite variant="4">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="415"><sprite variant="5">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="416"><sprite variant="6">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="417"><sprite variant="7">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="418"><sprite variant="8">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="419"><sprite variant="9">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="420"><sprite variant="10">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="421"><sprite variant="11">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="422"><sprite variant="12">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="423"><sprite variant="13">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="424"><sprite variant="14">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+	<npc id="425"><sprite variant="15">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
+
+	<!-- ########## IDs 500~599 reservado para o sprite "npcs-br2.png"######################### -->
+	<!-- NPCs Mágicos -->
+	<npc id="500"><sprite variant="0">npcs-br2.xml</sprite></npc> <!-- Alquimista -->
+	<npc id="501"><sprite variant="1">npcs-br2.xml</sprite></npc> <!-- Bruxo -->
+	<npc id="502"><sprite variant="2">npcs-br2.xml</sprite></npc> <!-- Necromante -->
+	<npc id="503"><sprite variant="3">npcs-br2.xml</sprite></npc> <!-- Feiticeiro -->
+	<npc id="504"><sprite variant="4">npcs-br2.xml</sprite></npc> <!-- Monge Meditando -->
+	<npc id="505"><sprite variant="5">npcs-br2.xml</sprite></npc>
+	<npc id="506"><sprite variant="6">npcs-br2.xml</sprite></npc>
+	<npc id="507"><sprite variant="7">npcs-br2.xml</sprite></npc>
+	<npc id="508"><sprite variant="8">npcs-br2.xml</sprite></npc>
+	<npc id="509"><sprite variant="9">npcs-br2.xml</sprite></npc>
+	<!-- NPCs Guerreiros -->
+	<npc id="510"><sprite variant="10">npcs-br2.xml</sprite></npc> <!-- Guerreiro de Contusão -->
+	<npc id="511"><sprite variant="11">npcs-br2.xml</sprite></npc> <!-- Guerreiro de Esgrima -->
+	<npc id="512"><sprite variant="12">npcs-br2.xml</sprite></npc> <!-- Guerreiro de Espada -->
+	<npc id="513"><sprite variant="13">npcs-br2.xml</sprite></npc> <!-- Cavaleiro de Armadura -->
+	<npc id="514"><sprite variant="14">npcs-br2.xml</sprite></npc> <!-- Arqueiro -->
+	<npc id="515"><sprite variant="15">npcs-br2.xml</sprite></npc> <!-- Policial do Grupo de Operações Especiais -->
+	<npc id="516"><sprite variant="16">npcs-br2.xml</sprite></npc> <!-- Assassino Raivoso Careca(by TMWUFB) -->
+	<npc id="517"><sprite variant="17">npcs-br2.xml</sprite></npc> <!-- Assassino Feliz Penteado(by Luke) -->
+	<npc id="518"><sprite variant="18">npcs-br2.xml</sprite></npc> <!-- Assassino Raivoso Arrupiado(by Luke) -->
+	<npc id="519"><sprite variant="19">npcs-br2.xml</sprite></npc> <!-- Assassino Nefesto(by Sky) -->
+	<!-- NPCs Trabalhadores -->
+	<npc id="520"><sprite variant="20">npcs-br2.xml</sprite></npc> <!-- Mineiro c/ picareta tipo 1 -->
+	<npc id="521"><sprite variant="21">npcs-br2.xml</sprite></npc> <!-- Mineiro c/ picareta tipo 2 -->
+	<npc id="522"><sprite variant="22">npcs-br2.xml</sprite></npc> <!-- Aventureiro Demoníaco (Por Luke)-->
+	<npc id="523"><sprite variant="23">npcs-br2.xml</sprite></npc> <!-- Homem com Boné AFK (Por Sky) -->
+	<npc id="524"><sprite variant="24">npcs-br2.xml</sprite></npc>
+	<npc id="525"><sprite variant="25">npcs-br2.xml</sprite></npc>
+	<npc id="526"><sprite variant="26">npcs-br2.xml</sprite></npc>
+	<npc id="527"><sprite variant="27">npcs-br2.xml</sprite></npc>
+	<npc id="528"><sprite variant="28">npcs-br2.xml</sprite></npc>
+	<npc id="529"><sprite variant="29">npcs-br2.xml</sprite></npc>
+	<!-- NPCs Monstros -->
+	<npc id="530"><sprite variant="30">npcs-br2.xml</sprite></npc> <!-- Minotauro -->
+	<npc id="531"><sprite variant="31">npcs-br2.xml</sprite></npc> <!-- Espantalho -->
+	<npc id="532"><sprite variant="32">npcs-br2.xml</sprite></npc> <!-- Golem tipo 1 -->
+	<npc id="533"><sprite variant="33">npcs-br2.xml</sprite></npc> <!-- Golem tipo 3 -->
+	<npc id="534"><sprite variant="34">npcs-br2.xml</sprite></npc>
+	<npc id="535"><sprite variant="35">npcs-br2.xml</sprite></npc>
+	<npc id="536"><sprite variant="36">npcs-br2.xml</sprite></npc>
+	<npc id="537"><sprite variant="37">npcs-br2.xml</sprite></npc>
+	<npc id="538"><sprite variant="38">npcs-br2.xml</sprite></npc>
+	<npc id="539"><sprite variant="39">npcs-br2.xml</sprite></npc>
+	<!-- NPCs Viajantes -->
+	<npc id="540"><sprite variant="40">npcs-br2.xml</sprite></npc> <!-- Pescador -->
+	<npc id="541"><sprite variant="41">npcs-br2.xml</sprite></npc> <!-- Marujo -->
+	<npc id="542"><sprite variant="42">npcs-br2.xml</sprite></npc> <!-- Importador -->
+	<npc id="543"><sprite variant="43">npcs-br2.xml</sprite></npc>
+	<npc id="544"><sprite variant="44">npcs-br2.xml</sprite></npc>
+	<npc id="545"><sprite variant="45">npcs-br2.xml</sprite></npc>
+	<npc id="546"><sprite variant="46">npcs-br2.xml</sprite></npc>
+	<npc id="547"><sprite variant="47">npcs-br2.xml</sprite></npc>
+	<npc id="548"><sprite variant="48">npcs-br2.xml</sprite></npc>
+	<npc id="549"><sprite variant="49">npcs-br2.xml</sprite></npc>
+	<!-- NPCs Anões -->
+	<npc id="550"><sprite variant="50">npcs-br2.xml</sprite></npc> <!-- Anão Guerreiro de Marreta 1 -->
+	<npc id="551"><sprite variant="51">npcs-br2.xml</sprite></npc> <!-- Anão Guerreiro de Marreta 1 -->
+	<npc id="552"><sprite variant="52">npcs-br2.xml</sprite></npc> <!-- Anão Feiticeiro -->
+	<npc id="553"><sprite variant="53">npcs-br2.xml</sprite></npc> <!-- Anão guarda (tipo fortaleza) -->
+	<npc id="554"><sprite variant="54">npcs-br2.xml</sprite></npc> <!-- Anão Engenheiro Infantil -->
+	<npc id="555"><sprite variant="55">npcs-br2.xml</sprite></npc> <!-- Anão Engenheiro Adulto -->
+	<npc id="556"><sprite variant="56">npcs-br2.xml</sprite></npc> <!-- Anão Engenheiro Idoso -->
+	<npc id="557"><sprite variant="57">npcs-br2.xml</sprite></npc> <!-- Anão Mercador -->
+	<npc id="558"><sprite variant="58">npcs-br2.xml</sprite></npc>
+	<npc id="559"><sprite variant="59">npcs-br2.xml</sprite></npc>
+	<npc id="560"><sprite variant="60">npcs-br2.xml</sprite></npc> <!-- Anão idoso -->
+	<npc id="561"><sprite variant="61">npcs-br2.xml</sprite></npc> <!-- Anão Menino -->
+	<npc id="562"><sprite variant="62">npcs-br2.xml</sprite></npc> <!-- Anão Pescador -->
+	<npc id="563"><sprite variant="63">npcs-br2.xml</sprite></npc> <!-- Anão Marujo -->
+	<npc id="564"><sprite variant="64">npcs-br2.xml</sprite></npc> <!-- Anão Forjador -->
+	<npc id="565"><sprite variant="65">npcs-br2.xml</sprite></npc> <!-- Anã Infermeira -->
+	<npc id="566"><sprite variant="66">npcs-br2.xml</sprite></npc> <!-- Anã Joalheira -->
+	<npc id="567"><sprite variant="67">npcs-br2.xml</sprite></npc>
+	<npc id="568"><sprite variant="68">npcs-br2.xml</sprite></npc>
+	<npc id="569"><sprite variant="69">npcs-br2.xml</sprite></npc>
+	<!-- Mestres de Classe "npcs-br2.png" -->
+	<npc id="570"> <!-- Mestre dos Cavaleiros e Amazonas -->
+		<sprite variant="70">npcs-br2.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+	</npc>
+	<npc id="571"> <!-- Mestre dos Ninjas e Kunoichis -->
+		<sprite variant="71">npcs-br2.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+	</npc>
+	<npc id="572"> <!-- Mestra dos Magos e Feiticeiras -->
+		<sprite variant="72">npcs-br2.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+	</npc>
+	<npc id="573"> <!-- Mestra dos Paladinos e Sacerdotizas -->
+		<sprite variant="73">npcs-br2.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+	</npc>
+	<npc id="574"> <!-- Mestre dos Druida -->
+		<sprite variant="74">npcs-br2.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+	</npc> 
+	<npc id="575"> <!-- Mestre dos Necromantes -->
+<sprite variant="75">npcs-br2.xml</sprite>
+<particlefx>graphics/particles/aura-negra.xml</particlefx>
+</npc> 
+	<npc id="576"><sprite variant="76">npcs-br2.xml</sprite></npc>
+	<npc id="577"><sprite variant="77">npcs-br2.xml</sprite></npc>
+	<npc id="578"><sprite variant="78">npcs-br2.xml</sprite></npc>
+	<npc id="579"><sprite variant="79">npcs-br2.xml</sprite></npc>
+	<!-- Espaço disponívels no sprite "npcs-br2.png" -->
+	<npc id="580"><sprite variant="80">npcs-br2.xml</sprite></npc>
+	<npc id="581"><sprite variant="81">npcs-br2.xml</sprite></npc>
+	<npc id="582"><sprite variant="82">npcs-br2.xml</sprite></npc>
+	<npc id="583"><sprite variant="83">npcs-br2.xml</sprite></npc>
+	<npc id="584"><sprite variant="84">npcs-br2.xml</sprite></npc>
+	<npc id="585"><sprite variant="88">npcs-br2.xml</sprite></npc>
+	<npc id="586"><sprite variant="86">npcs-br2.xml</sprite></npc>
+	<npc id="587"><sprite variant="87">npcs-br2.xml</sprite></npc>
+	<npc id="588"><sprite variant="88">npcs-br2.xml</sprite></npc>
+	<npc id="589"><sprite variant="89">npcs-br2.xml</sprite></npc>
+	<npc id="590"><sprite variant="90">npcs-br2.xml</sprite></npc>
+	<npc id="591"><sprite variant="91">npcs-br2.xml</sprite></npc>
+	<npc id="592"><sprite variant="92">npcs-br2.xml</sprite></npc>
+	<npc id="593"><sprite variant="93">npcs-br2.xml</sprite></npc>
+	<npc id="594"><sprite variant="94">npcs-br2.xml</sprite></npc>
+	<npc id="595"><sprite variant="99">npcs-br2.xml</sprite></npc>
+	<npc id="596"><sprite variant="96">npcs-br2.xml</sprite></npc>
+	<npc id="597"><sprite variant="97">npcs-br2.xml</sprite></npc>
+	<npc id="598"><sprite variant="98">npcs-br2.xml</sprite></npc>
+	<npc id="599"><sprite variant="99">npcs-br2.xml</sprite></npc>
+	<!-- ########## FIM DA RESERVA 500~599 #################################################### -->
+	<npc id="600"> <!-- Identico ao Monstro Guarda -->
+		<!--<sprite>player_male_base.xml</sprite>-->
+		<sprite>monster-terranite.xml</sprite>
+		<sprite>leg-assassin-male.xml</sprite>
+		<sprite>feet-furboots-male.xml</sprite>
+		<sprite>hands-gloves-generic-male.xml</sprite>
+		<!--<sprite>hairstyle15.xml|#580000,A40000,C02020,ff6060</sprite>-->
+		<sprite>head-bandana.xml</sprite>
+		<!--<sprite>weapon-lidersword.xml</sprite>-->
+		<sprite>chest-warlordplate-male.xml</sprite>
+	</npc>
+	<npc id="601"> <!-- Guarda de Deserto -->
+		<sprite>monster-terranite.xml</sprite>
+		<sprite>leg-assassin-male.xml</sprite>
+		<sprite>feet-furboots-male.xml</sprite>
+		<sprite>hands-gloves-generic-male.xml</sprite>
+		<sprite>head-capacete-lord.xml</sprite>
+		<sprite>weapon-lidersword.xml</sprite>
+		<sprite>chest-warlordplate-male.xml</sprite>
+	</npc>
+	<npc id="602"> <!-- Guarda de Froz -->
+		<sprite>player_male_base.xml</sprite>>
+		<sprite>leg-assassin-male.xml</sprite>
+		<sprite>feet-furboots-male.xml</sprite>
+		<sprite>hands-gloves-generic-male.xml</sprite>
+		<!--sprite>head-capacete-lord.xml</sprite-->
+		<sprite>equipment/head/cabecao-neve.xml</sprite>
+		<sprite>weapon-lidersword.xml</sprite>
+		<sprite>chest-warlordplate-male.xml</sprite>
+	</npc>
+	<npc id="603"> <!-- Guarda de Halicarnazo -->
+		<sprite>rings-wings-demon.xml</sprite>
+		<sprite>monster-terranite.xml</sprite>
+		<sprite>equipment/leg/calca-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite>equipment/feet/bota-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite>equipment/hands/luva-cavaleiro-negro-male.xml</sprite>
+		<sprite>equipment/head/capacete-cavaleiro-negro-male.xml</sprite>
+		<sprite>equipment/chest/armadura-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite>weapon-lidersword.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+		<particlefx>graphics/particles/pink-violent-glow.particle.xml</particlefx>
+	</npc>
+	<npc id="604"> <!-- Porta de Froz -->
+		<sprite>npcs/npc-PortaDeCastelo.xml</sprite>
+	</npc>
+	<npc id="605"> <!-- Estatua de Froz -->
+		<sprite variant="0">npcs/npc-estatuas.xml</sprite>
+	</npc>
+
+
+	<npc id="606"> <!-- Porta de Halicarnazo -->
+		<sprite>npcs/npc-PortaDeCastelo2.xml</sprite>
+	</npc>
+	<npc id="607"> <!-- Estatua de Halicarnazo -->
+		<sprite variant="0">npcs/npc-estatuas.xml</sprite>
+	</npc>
+
+	<npc id="608"> <!-- Brilho Escondido -->
+		<particlefx>graphics/particles/material-oculto.xml</particlefx>
+	</npc>
+
+
+</npcs>

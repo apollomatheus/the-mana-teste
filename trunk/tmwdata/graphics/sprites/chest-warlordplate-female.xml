@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/chest-warlordplate-female.png|W" width="26" height="31"/>
+
+	<include file="chest-warlordplate-male.xml"/>
+
+</sprite>

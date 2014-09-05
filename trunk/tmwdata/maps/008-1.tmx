@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="120" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/008-1.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Cavernas Alagadas"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="pasta" value="Caverna"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="cave X2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="obj_caverna" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/objetos_caverna.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="211" name="animated wetwall" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_ani_wetwall.png" width="512" height="192"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="10"/>
+    <property name="animation-delay1" value="10"/>
+    <property name="animation-delay10" value="10"/>
+    <property name="animation-delay11" value="10"/>
+    <property name="animation-delay12" value="10"/>
+    <property name="animation-delay13" value="10"/>
+    <property name="animation-delay14" value="10"/>
+    <property name="animation-delay15" value="10"/>
+    <property name="animation-delay2" value="10"/>
+    <property name="animation-delay3" value="10"/>
+    <property name="animation-delay4" value="10"/>
+    <property name="animation-delay5" value="10"/>
+    <property name="animation-delay6" value="10"/>
+    <property name="animation-delay7" value="10"/>
+    <property name="animation-delay8" value="10"/>
+    <property name="animation-delay9" value="10"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame10" value="10"/>
+    <property name="animation-frame11" value="11"/>
+    <property name="animation-frame12" value="12"/>
+    <property name="animation-frame13" value="13"/>
+    <property name="animation-frame14" value="14"/>
+    <property name="animation-frame15" value="15"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="3"/>
+    <property name="animation-frame4" value="4"/>
+    <property name="animation-frame5" value="5"/>
+    <property name="animation-frame6" value="6"/>
+    <property name="animation-frame7" value="7"/>
+    <property name="animation-frame8" value="8"/>
+    <property name="animation-frame9" value="9"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="animation-delay0" value="10"/>
+    <property name="animation-delay1" value="10"/>
+    <property name="animation-delay10" value="10"/>
+    <property name="animation-delay11" value="10"/>
+    <property name="animation-delay12" value="10"/>
+    <property name="animation-delay13" value="10"/>
+    <property name="animation-delay14" value="10"/>
+    <property name="animation-delay15" value="10"/>
+    <property name="animation-delay2" value="10"/>
+    <property name="animation-delay3" value="10"/>
+    <property name="animation-delay4" value="10"/>
+    <property name="animation-delay5" value="10"/>
+    <property name="animation-delay6" value="10"/>
+    <property name="animation-delay7" value="10"/>
+    <property name="animation-delay8" value="10"/>
+    <property name="animation-delay9" value="10"/>
+    <property name="animation-frame0" value="16"/>
+    <property name="animation-frame1" value="17"/>
+    <property name="animation-frame10" value="26"/>
+    <property name="animation-frame11" value="27"/>
+    <property name="animation-frame12" value="28"/>
+    <property name="animation-frame13" value="29"/>
+    <property name="animation-frame14" value="30"/>
+    <property name="animation-frame15" value="31"/>
+    <property name="animation-frame2" value="18"/>
+    <property name="animation-frame3" value="19"/>
+    <property name="animation-frame4" value="20"/>
+    <property name="animation-frame5" value="21"/>
+    <property name="animation-frame6" value="22"/>
+    <property name="animation-frame7" value="23"/>
+    <property name="animation-frame8" value="24"/>
+    <property name="animation-frame9" value="25"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="animation-delay0" value="100"/>
+    <property name="animation-delay1" value="10"/>
+    <property name="animation-delay10" value="10"/>
+    <property name="animation-delay11" value="10"/>
+    <property name="animation-delay12" value="10"/>
+    <property name="animation-delay13" value="10"/>
+    <property name="animation-delay14" value="10"/>
+    <property name="animation-delay2" value="10"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="70"/>
+    <property name="animation-delay5" value="10"/>
+    <property name="animation-delay6" value="10"/>
+    <property name="animation-delay7" value="10"/>
+    <property name="animation-delay8" value="10"/>
+    <property name="animation-delay9" value="10"/>
+    <property name="animation-frame0" value="32"/>
+    <property name="animation-frame1" value="33"/>
+    <property name="animation-frame10" value="41"/>
+    <property name="animation-frame11" value="42"/>
+    <property name="animation-frame12" value="43"/>
+    <property name="animation-frame13" value="44"/>
+    <property name="animation-frame14" value="45"/>
+    <property name="animation-frame2" value="34"/>
+    <property name="animation-frame3" value="32"/>
+    <property name="animation-frame4" value="35"/>
+    <property name="animation-frame5" value="36"/>
+    <property name="animation-frame6" value="37"/>
+    <property name="animation-frame7" value="38"/>
+    <property name="animation-frame8" value="39"/>
+    <property name="animation-frame9" value="40"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="animation-delay0" value="100"/>
+    <property name="animation-delay1" value="10"/>
+    <property name="animation-delay10" value="10"/>
+    <property name="animation-delay11" value="10"/>
+    <property name="animation-delay12" value="10"/>
+    <property name="animation-delay13" value="10"/>
+    <property name="animation-delay14" value="10"/>
+    <property name="animation-delay2" value="10"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="70"/>
+    <property name="animation-delay5" value="10"/>
+    <property name="animation-delay6" value="10"/>
+    <property name="animation-delay7" value="10"/>
+    <property name="animation-delay8" value="10"/>
+    <property name="animation-delay9" value="10"/>
+    <property name="animation-frame0" value="48"/>
+    <property name="animation-frame1" value="49"/>
+    <property name="animation-frame10" value="57"/>
+    <property name="animation-frame11" value="58"/>
+    <property name="animation-frame12" value="59"/>
+    <property name="animation-frame13" value="60"/>
+    <property name="animation-frame14" value="61"/>
+    <property name="animation-frame2" value="50"/>
+    <property name="animation-frame3" value="48"/>
+    <property name="animation-frame4" value="51"/>
+    <property name="animation-frame5" value="52"/>
+    <property name="animation-frame6" value="53"/>
+    <property name="animation-frame7" value="54"/>
+    <property name="animation-frame8" value="55"/>
+    <property name="animation-frame9" value="56"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="animation-delay0" value="100"/>
+    <property name="animation-delay1" value="10"/>
+    <property name="animation-delay10" value="10"/>
+    <property name="animation-delay11" value="10"/>
+    <property name="animation-delay12" value="10"/>
+    <property name="animation-delay13" value="10"/>
+    <property name="animation-delay14" value="10"/>
+    <property name="animation-delay2" value="10"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="70"/>
+    <property name="animation-delay5" value="10"/>
+    <property name="animation-delay6" value="10"/>
+    <property name="animation-delay7" value="10"/>
+    <property name="animation-delay8" value="10"/>
+    <property name="animation-delay9" value="10"/>
+    <property name="animation-frame0" value="64"/>
+    <property name="animation-frame1" value="65"/>
+    <property name="animation-frame10" value="73"/>
+    <property name="animation-frame11" value="74"/>
+    <property name="animation-frame12" value="75"/>
+    <property name="animation-frame13" value="76"/>
+    <property name="animation-frame14" value="77"/>
+    <property name="animation-frame2" value="66"/>
+    <property name="animation-frame3" value="64"/>
+    <property name="animation-frame4" value="67"/>
+    <property name="animation-frame5" value="68"/>
+    <property name="animation-frame6" value="69"/>
+    <property name="animation-frame7" value="70"/>
+    <property name="animation-frame8" value="71"/>
+    <property name="animation-frame9" value="72"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="animation-delay0" value="100"/>
+    <property name="animation-delay1" value="10"/>
+    <property name="animation-delay10" value="10"/>
+    <property name="animation-delay11" value="10"/>
+    <property name="animation-delay12" value="10"/>
+    <property name="animation-delay13" value="10"/>
+    <property name="animation-delay14" value="10"/>
+    <property name="animation-delay2" value="10"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="70"/>
+    <property name="animation-delay5" value="10"/>
+    <property name="animation-delay6" value="10"/>
+    <property name="animation-delay7" value="10"/>
+    <property name="animation-delay8" value="10"/>
+    <property name="animation-delay9" value="10"/>
+    <property name="animation-frame0" value="80"/>
+    <property name="animation-frame1" value="81"/>
+    <property name="animation-frame10" value="89"/>
+    <property name="animation-frame11" value="90"/>
+    <property name="animation-frame12" value="91"/>
+    <property name="animation-frame13" value="92"/>
+    <property name="animation-frame14" value="93"/>
+    <property name="animation-frame2" value="82"/>
+    <property name="animation-frame3" value="80"/>
+    <property name="animation-frame4" value="83"/>
+    <property name="animation-frame5" value="84"/>
+    <property name="animation-frame6" value="85"/>
+    <property name="animation-frame7" value="86"/>
+    <property name="animation-frame8" value="87"/>
+    <property name="animation-frame9" value="88"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="200" height="120">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Water shimmer" width="200" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bUWrDIACAYcfuf7ocoUfIBYYsgri6tKsa7b4PfCnB9MEfSYghAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQF/7g9d9fnT9GzCdPTzXh0b4D/ZiPCL1sYXvoRXe0V/ayN2O8UofWzG0xtVe7aKU7yXb8dvZWt+Oe9+KUc6lGUZq3UYU12++xkOor/W8i3v3L+dK82iEEVp2cebeWq91cTaPRhhhVBut6YMRVu0j0gi96QPqVu4j0gfU6YPeVt5D9EFvK/cBAADQmudwqNMHs5npvVb69lcnzGK2PnzbzixGfvf+DH1wpdhEOrM0Yx+RPrjKb2f5ZmEP4Qoz7xk55wcZrfUZ9N70wUgrtZHog1FWayPSB8AcVtxDAACA95KeS7wvgp/0AQAAAAAAAAAAAAAAAAAAAAAAtPAF7neXuwB3AQA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cO04DMRAG4ByEq1JRAAUvAeEAvK7JNG4SiBIR78za3yf9daxkbNneyW42AAAAAAAAAAAAAAAAAAAAAAD1XGYPAACAsuwVAeqyRs/N789M1DtZetee2u7rOnITuc0eCN08R14ir5Ft5G2hzzV3WYP3yEfkM/IV+c4dDpRyF7mPPEQeI0+5wyGJvSLAuJzZYN3MYQAAAOAYV9kDAACYROvVXbJPF9ai9erq04V9rVdXny4AAAAAs/M/GXbpezqOuZPDOxgAAACA6tyv0du578jULMA+z4EAOKeL7AEAkMK5AoAenC9o1ALAWKzr/+MMDpDD+vs7/4EFAAAAAJbmvvY07nHZ5Zk9I1HPh/l+AAAAANbP+1MBINdfz1sq9S7YL0A/5tdY9FFxCj0XHFJpL9io2fFUrDOgPmcYAEbgDgdgfNZ6AAAAAAAAAAAAAAAAAAAAZvUDmG9xEAB3AQA=
+  </data>
+ </layer>
+ <layer name="Top" width="200" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dSXLbMBAFUO+TCyS5/z1jlUtlhSHFCUM38F6Vt9YAfDQIEeDHB+T06/PvZ+83QQg/Pv/+9H4TQApqB0tqCABcZ27FFnMsYIvawZ5Za4hscNRsGZENzpohI49c/P6QDa55ZOTRf0bMiZpBKaPlRDao4ZmTjFl5zqXMp2hhhusTuCNLRsynYJ1s0FOWGgK9RM2I2kEUUTMCAJCZORYAjOOxjqeuM7Otua01bvji+o9esozDr/dYZ7xX+XmftZwTXevrlixjEDz7aqs52zIba68rP0TQuh9uvV7mueLrfjxzxXGs9dWaNWS0mjDjmR/Z2/Bo/87+Oe96HfO3/q6ME9YV49tro71slG7jKOPs2XMJrp7BICN5Ha0bpdp4lDp19vuQkdiW17tXrnvvtvEo2XiSEZbOtvHoZytdyYh1rbHttfHomViatS6MNh8orcScbRTP72LGz04es47lcNSdjNgvwwxcB8O+Gr9tusbwPYxkmZGr+0z0iS++h/G8rrVdadsafcK1Dvwvyv1n5BRtn22p2rGWC+vRnPHaFyP0nRLZ2KsXET4nnFUqG7Xvj7ZfEY5Ri8bVen/v2fcSzda8TUbyW7u3MXp/BMquV9XKfOs90Wx7d3bBaG2QZV7Vck806478jjVSG5TMRpScjdQ+WWVvg9F/z87ePiOI0gZn7muvlYsotePV1bOJGNPW3t/a62URs7F0Nyuj11vqyJCNpeU4speXjJ8xipJnyG21V9T2KX0PY6850Nm8cE6J+4gi9v/alp892vWc33D7iloXjsj83mnvyhmLs/avmWvmzKwn7pt5XOBblLl0DVf7uGzkVWMNpURGevWp0ucoyEZeNfe33l3b6pUNfZktNTKS4ZrEdTNXlBpPz+Su1Rje4rkM6lFcd/fxl27bvTWuVmO4WjG3u+cutXi2Ra/9tsZztoy87rpluRfyTjZkKz9t+C3i/sAZx6gojrTh6O1T45rbmDOXLGuuR832fNBejBP5ZGyzjDU80/fsGUnt1PpuMtXwWfuHZxSzxZyVPS3GzYxzLWg5p8g01wJg26zXoyMxbz1nuQes1rk6vc/rgYer40OrNTvjV1zLe/JGbadofdC8LL6tZ5aNmpMon0028ovSl2YkP+3dnYPLSRn6flyvGTnbTtHm71DDnTUZteSeq7Uj29g0e42Uk/N69pm7Z2+cfa2Zs/FKTvaVOv/kSg25e/bG3dfiS7b6X1uE+73fjeOlznP17I/jStSSmvuLRsjvcn1l7R6Yo/313TMYt/6nPPShNv9rb+xvdd6Y9uhLLpjNkblMj1zUWEuosS505XcpY0wu7/pi7/W/Us/3XlsXevc89YhjBn31Ojf3qL0+XfK6dO+1In0vAAAAAAAAAAAAAAAAAAAAkMFfZQ/3oAB3AQA=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="120" visible="0">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <objectgroup name="spawns" width="0" height="0" visible="0">
+  <object name="Limo Vermelho (5)" type="spawn" x="1344" y="2624" width="672" height="576">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Escorpiao (8)" type="spawn" x="640" y="1408" width="1888" height="1184">
+   <properties>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Escorpião Preto (15)" type="spawn" x="2688" y="1824" width="2976" height="1344">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Limo Vermelho (15)" type="spawn" x="2752" y="672" width="2976" height="2432">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Aranha (15)" type="spawn" x="2688" y="736" width="3008" height="1344">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="Limo Vermelho (5)" type="spawn" x="640" y="704" width="1824" height="576">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="Desvio!" type="script" x="1440" y="1632" width="32" height="32">
+   <properties>
+    <property name="name" value="Desvio!"/>
+    <property name="npc" value="155"/>
+    <property name="script" value="mes &quot;[Desvio]&quot;;"/>
+    <property name="script1" value="mes &quot;* Use esta nova passagem para contornar a passagem bloqueada.&quot;;"/>
+   </properties>
+  </object>
+  <object name="paraFora1" type="warp" x="4480" y="3136" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x" value="800"/>
+    <property name="dest_y" value="1376"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4800" y="2624" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5440" y="2592" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5344" y="2208" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4512" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4352" y="3008" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5216" y="2976" width="32" height="32"/>
+  <object name="paraFora2" type="warp" x="5152" y="3072" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x" value="1312"/>
+    <property name="dest_y" value="1280"/>
+   </properties>
+  </object>
+  <object name="paraFora3" type="warp" x="2944" y="1888" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="1376"/>
+    <property name="dest_y" value="1568"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1216" y="2528" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4544"/>
+    <property name="dest_y" value="1056"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="704" y="2656" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1152" y="2208" width="32" height="32"/>
+  <object name="paraCima" type="warp" x="1408" y="2304" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4736"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="2912" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1408" y="2080" width="32" height="32"/>
+  <object name="paraDentro3" type="warp" x="1376" y="1568" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="2944"/>
+    <property name="dest_y" value="1888"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="768" y="2912" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4096"/>
+    <property name="dest_y" value="1440"/>
+   </properties>
+  </object>
+  <object name="atalho1" type="warp" x="736" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="3936"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="atalho2" type="warp" x="2368" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="5248"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+  <object name="atalho3" type="warp" x="3936" y="832" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="736"/>
+    <property name="dest_y" value="928"/>
+   </properties>
+  </object>
+  <object name="atalho4" type="warp" x="5248" y="736" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="2368"/>
+    <property name="dest_y" value="1024"/>
+   </properties>
+  </object>
+  <object name="paraDentro4" type="warp" x="2144" y="1696" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="3264"/>
+    <property name="dest_y" value="1184"/>
+   </properties>
+  </object>
+  <object name="paraFora4" type="warp" x="3264" y="1184" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="2144"/>
+    <property name="dest_y" value="1696"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="0" height="0">
+  <object name="Pedra de Emanar Alma" type="script" x="5248" y="2400" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

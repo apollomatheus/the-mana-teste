@@ -1,0 +1,29 @@
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+# regras básicas
+./rule_hlw_001.tmx
+# variações do piso escuro
+./rule_hlw_002.tmx
+# variações das folhas em terreno escuro
+./rule_hlw_003.tmx
+# variações do piso claro
+./rule_hlw_004.tmx
+
+# Árvores secas
+./rule_hlw_050.tmx
+# Árvores verdes
+./rule_hlw_051.tmx
+./rule_hlw_052.tmx
+# Árvores coloridas
+./rule_hlw_053.tmx
+
+# Terreno claro
+./rule_hlw_100.tmx
+./rule_hlw_101.tmx
+# rio terreno escuro
+./rule_hlw_102.tmx
+./rule_hlw_103.tmx
+# folhas terreno escuro
+./rule_hlw_104.tmx
+./rule_hlw_105.tmx

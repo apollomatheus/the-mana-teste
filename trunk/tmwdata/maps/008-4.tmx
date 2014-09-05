@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/008-4.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Mina da Areia"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="pasta" value="MinaAreia"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="000000" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="Caverna X2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="woodland_indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2dS5MVNRSAs1KkStjIwEbYiDwsYYMO4MINMIK/AF81upOXj904ljXwy80pbmpSPXmcdKef+RZfzZ1LX7or3znpTDo597Ix5jIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCOS5YbI/DJxNf6xQLacm3csly37Fse7tj3eG75wfKj997DwOvQe5+ZujHgX2vonN90jo3FCnFyygPLV5YDy7MdBx6/W15YXnrvPQu8Dr13z9SNAf9aQ+f83HMci+lufHeP8V/Xjt8l8tTy2PJhhCPLP5Zjy3+J40I8MnVj4EriWuXavvacxmK6G9/dY/zXcu1+n7JFrhQ6LcWPgaHjhty1PvGcflfp2vcW4Ghq/9KP3lS0j+tvc8e6GJC8DPXH3T45lnNjx6rP0e7nBwtwNLV/6UfvK9rI9beaYyUGuv1r6HchlnND/X9suaDg4u7440b9Sz+q6T9df1ujr/UZ4v848W+fWq4quOZ9pkX/c1M7/11fjv82/Q/J/+8X4Ggq/9r7Y+6+uSX/LY3/te2jabcp/B8V/r/4T7fpl5Y7Cr5diH/yv67/oe3Y9e+Pnc5N4H8vcz78T+s/1XapeMD/vP5z8381/Kdc4n9e/7n5v7X6145v7jbuX+b1Us8EY+1410zrvzvXl/Pfhxb9O0qf95a03ZT5n5oTxn+dPFmyf6F0rkDY+txvS/5zhOJj67mP/zZzvjaxtl6Tf7z3J+ZlTv+Af2jXv6z/v1EAewLW7z+0/l/L1td5t+A/tP5fy9bX+WzNf2hu0l//n5q/Zuywfv99+cnyM/6b9f/K8jrwvowdGAOu23/f9UaCjB0YA67b/17n2EPLr5bfMp8TZOzAGHAe/92xXC3/f1r+svyt8M8YYD7/Y+U//vGP/3Jy9YBu73C/x9aK4n9dOO9+7ZR9k66RIsTWiuJ/PVzyvPu1Uw5MukaKENv/jf914OpqOe+19vPjfx24ulpT1XHA/7J4OoJ7/K+HbruW1AFI7flfqv/Yvgb8v6ekDkBqz/eU/rvrN+XYE8tby7vE5/B/tl21++RCe77G8i9/n6T2pHY/0+dZIf7zeVVjH38f/zJGTe1JxX99/6k18bk4yLVlqf/cGBX/9f3n2iMWA5q9FCX+c30//sfxL2tixqp/XeI/1/eHPiNzWreVtL7uJ+ZC1sSMVQNd69/lfqrvD/U3EjP7Slj3E+7Lu7W7a8aB1n+f3BdkvHCghHU/cR9+7e6acaDxr8n9mP+S+3+r933h1u5nanzlanfXjIOcf/c8Mpf7Jf7/xf8Z3H1S086xOOgTCzn/Jc+kyP/+uPtkyfMfPw7878opiYOUH1d/TntNOf+5OkYt+x+yp0LiwP+uHIkD7Vg6dV75u0PTH4X8uX2/mu8vwX+9+i+uT9C2Zeq82u+fCPkruZ/hv379nxr+S5H7hZ/3Eod946c1NB5K6gDO4d/t+5axSEne438b+e/2fctYpM86JvxP779kfDY2+J+2LTVzuvjfpn/tnC7+t+e/ZE4X/9vy79yPsc8A//P4PzRn6yvE1m4u1T3++7dbaH19bO3mUt23Xvd3iP8Tc3Z9fcnazVgtLnJ/Hf617Rk7R6wWVy0OTbr+T+u579ycr9jmQ5/F18Tdn96YcAy0nvsOf+2fi4WPRvQ/9HuFtLn/h3nvP7YHFP/xWKjZN86R/y73hV/M6Rjl0Jz2BfiPu6rZNjn/pd87ntpz7PoW37+f+yfmNBbwP53/1Bij9HvH/T3HsfuUeH5r0vt/8T+Nf8HdV0JxULLf2O05dt771nxl7D8PIUclf3+EvGvPg/dlQt4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBa+B9pGVwtAAABAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZyxGAIAwFQO3DErROtQeLlQI4iD+I7s5wCRcuYQiv6wAAAAAAAAAAAAAAAAAAAL5lq30AAKAp48V94pv6sjoAABCX938bcrP20/O3+R/OOdobeggAgJzhYA0AAIDYauR/AAAAvE/+BwAx+a8FoJT8DyAu9zUAUEL+BwAA8A/yPwAAAAAAAACA+81pLWmttQ8CAAAAAAAAAAAAAAAA0JAdtlEy5AAAAQA=
+  </data>
+ </layer>
+ <layer name="Over" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dQQ6CMBAAQO76AfX//1QODWhAt4iltjMJNwgku21K2dVhAAAAAAAAAAAAAAAAAAAAgMnlcdyC512D5wIAAABtSvsDpfYISt+PuNMwxUZ86hbd/wMAaM24Djof/RBAMfM9hB7G/ut7+ZajhXfFFPceYt6D3LwWdwAAAPgP6n8AAAAAAKAtavVhf/Nvar6r9WVpTk111Z/ywHzctjEP1nJA7Puw1mNRQ+y39DXV8NzkM998591cDgAAAAAAAABQO7Uj0Cdjn96p/WNeK51y4bXvRw01tC/NBcYxe/nlGmPrb75a+5cV7RuNWvq/pqV1TOQ6ylnqy8sdt5H41dybyLOcXk3xAwAAAAAAAAAAAAAAjnQHUtfcrwAAAQA=
+  </data>
+ </layer>
+ <layer name="Collision" width="128" height="128" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TW4rEMAwEw9z/0Mt8LITBTmRZcltJNRQLGT+7vJ/jOD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADccG5wB8h3fxTruPH7VWdX9VSYzK88afS+1F5V/a39eL7u+1VbUbp7g/3cs/veid+eRbiKT6f9ujd/f1W4U/tXJPmtvnav/hSezW3Y6q9oN/vGP/7yz3q2pdoN/7VnVbir79+7jPWvGvdRunuTfum+2/95vre9qNwr/Ue9iZu8s/5Y1Ru9QnVYHK/x75o3sFxG1m538Wzv9nP7if3+u7j4T/NcgK9X9q73gH//4X+tf7aIq3i5H51xlxr+6v+p4Ou0lyj/gH/AP+Af8w3P8t+aPvJXRs0K8f4vDGacjUfdXHU+nvWT697472N//zFtR91cdT6e9RPkfeQvq/qrj6fQ8zjrvKjP+LeeFHP8j866Cf/zjv47/1jzvm7mba4m6w8p4+uwF//Xw9NkL/vVEBP/1GI3XI/73Izr4r0NGdvXfW0ft4G3+W/tmvBnr/dQO3ubfM29kTvR5n8xIJ9bgvw6ePo7DPxf/e+HtY6bHXkbH9+aMRu2gov/oPa/2vYq6v+ooOu0lajzM+dhpz6uoe3sKq7vtJcq/Nered2F1P9b97mJdv7eWuvdduEt1/6vuVZXVfVnWnznP+fcV96mKN9n+Z8+x6h7ViQj+6xKZ2b0958F/rv+sLqMyu666fzWRwX89IqPadybq/tVEBv/1iAz+6xGZau6/UfevJjL4r0dEb61vFdx/o+5fTURvrW+4r0FEd61vu7v/Rt39DkRmZI/sd2Hd/+1EZsUe3rPc/f5momJZf8V7sNxR3fmuZHSzOnf36o2BnG5WpXf+4+d7awzU9/8fy/7qnt9GRrx7qLt4MxHx7qO+O8y9CfU5AQAAAAAAAAAAAAAAAAAAAAAAAAAAAADg3fwBNIOUWwAAAQA=
+  </data>
+ </layer>
+ <objectgroup name="Object Group 1" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1280" y="1440" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="1440" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1376" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1376" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1824" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1824" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2048" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2048" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2496" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2496" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2720" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2720" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1440" y="2176" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1440" y="2368" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3104" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1376" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3104" y="1376" width="32" height="32"/>
+  <object name="Spider" type="SPAWN" x="0" y="0">
+   <properties>
+    <property name="MAX_BEINGS" value="20"/>
+    <property name="MONSTER_ID" value="10"/>
+    <property name="SPAWN_RATE" value="10"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="SPAWN" x="0" y="0">
+   <properties>
+    <property name="MAX_BEINGS" value="25"/>
+    <property name="MONSTER_ID" value="5"/>
+    <property name="SPAWN_RATE" value="10"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1088" y="3200" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-3"/>
+    <property name="dest_x" value="1184"/>
+    <property name="dest_y" value="960"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/pentagram-linedraw.particle.xml" type="PARTICLE_EFFECT" x="2992" y="1240" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="128" height="128">
+  <object name="Pedra de Emanar Alma" type="script" x="2912" y="2624" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+  <object name="Pedra de Emanar Alma" type="script" x="1376" y="1216" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

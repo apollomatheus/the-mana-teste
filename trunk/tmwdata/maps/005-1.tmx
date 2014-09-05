@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="112" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="--downlay0image" value="/graphics/images/ambient/paraiso.png"/>
+  <property name="--overlay0image" value="/graphics/images/ambient/paraiso.png"/>
+  <property name="minimap" value="/graphics/minimaps/005-1.png"/>
+  <property name="music" value="syntharmony_-_fusion.ogg"/>
+  <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Quartel General"/>
+  <property name="pasta" value="QuartelGeneral"/>
+ </properties>
+ <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Block Walls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="Block Walls 2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="323" name="Block Walls X2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/blockWalls_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="339" name="grade" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/grade_x3.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="342" name="Woodland_swamp" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_swamp.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="438" name="Hotel (Interno)" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="694" name="concrete_walls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/concreteWalls.png" width="512" height="672"/>
+ </tileset>
+ <tileset firstgid="1030" name="Sombras" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sombras.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="1054" name="Placas_x3" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/placas_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="1070" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="112" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cwU3jQABA0SGBBiiBGjjvBagAuLgCqGDZChYqAE5cOdAUUAGgva9XYaSVZYdx4rEz4R2ehKwxSuZrcKyMeZqF8AQAAAAAAAAAwCCOQgiHLDV1o2Ue5yEcB7qcFNAvmnquNlFJ/aKzQHReYL9oP5ThuX4fLxm8zha/f+pG297vrX4f7xl8FN6vamlYDXRcv3HWX/N68DBfaB6Pc9l3vH55+x00xB7N43Eu+47Xb9x+Xbr6fTVeP/30K6df22ch/crpZ/2l96taPnd0qVYYr5/1p59++umnn37foZ/7h7L7WX/9+p2GtO8441z2Ha9fvn597tH6fk/k/m+c9VcC/fTTL7/nWfs+lb25fute//63zp6JZeflWmfb2u/fa19lz13XnokUU/yd3OZ+P3ZD+Fm7SvBrdzE+9lvlXP2G7/e7dp3g4rPFZePnlHNv9Ju83zr0008//fTL12+nfk2zFn/0K6Lf2OtSP/3000+/79mvmm9eP/snrD/99NsU+umnn3766aefftvY77Z2l9l9Yj/3f/37jcn6G7Zfyn74If/XmH7D9iuBfvrpp59++umnX1u/g5Dn2Vn99NOvX7/UZ4vWfcY29Xz9XP9K7Tf13Ounn34sM3UjAAAAAAAAAACAofwFS/Y2WgCvAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="112" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2cX04TURhHp+VPUB/FBOiDL/h/Awi6A1gES+CJHVTcgOgGVHwg4VF3AItwLX5Nb+Nkknam883t797pOcmZO01bwv1OOklLQ1EAAAAAAAAAAAAAAAAAAAAAQFcMguXznNwO6zisn5w/7yqsn8O61XKuq+J6oyg+mB839C3aWIT1S1ivK/f/rnn+n8rtr2H9FtYX7Ue7Eia/46m1O8u042wP38P6o3L/fc3zHyq3f4b1psin38wcO1b30LU59St7Rr+s++Vi7D3Qj34xUc8/dj/vDPrU72Xp/FWEx8fodzO09wIL/DVcn34pGnsP9KNfTNTz77Jf3bWyqeVrKv14/cVEPX9efz7U8++yX5fQj36rQD3/LvvFMPV+daj70M+Hug/9fKj7NJkv/eaj7lPneeS/U9JP28+7N/rRT4m6z8xL63Rr/h3+985uX9BvIepuXr17ox/9lKjnTz8fy85rFd+ZoF9z1POnnw/1/OnnQz3/Ovn8ZTHqPvTzoe5DPx/qPhPH4XOWNp+/0E/v8832z/Xuj35avftLvZ96vvTzoZ4v/Xyo50s/H+r5pi798pZ+enft/cfTks+WeD9CP72TZqPQ7CA0pF+e7tIvW2ftRvTL0mXb0S8tl7lu0q8f0i8def2tn/TLW/rlbR/67djhkblpPjafDPRzpd+UJnvYs8N+aHZghxH9kqHJHm4r3xG6y+R/89Jv6ms7vBlMz9/a4d0gzqw831Oi33yP7PDePDSPzZNI/VK0D/3W3ZRRzyYHU0Y9mxwEAAAAAAAAAAAAAAAAAAAAAADoC/8Adtl7XwCvAAA=
+  </data>
+ </layer>
+ <layer name="Top1" width="112" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2aTVLbMBiG1cYr2oGBMCwoW3Y9BtN9N9lnAzeAS3UH3IDeoL1P7Rk0VVR9tn6s6KfPM/ONE1vBth6/jlGkFAAAAAAAAAAAAAAAAAAAAACsxfmg1AfVdn3KdA4tsB3ynf8x6lbluwZbYPLXcgZvVb5rsAWmc285g9pfjmuwBbS/i8b9bfEnnseJ8donp6Ht8RfPkr+7sa6N9/o+ZfbX1EZ7ktqfC+3xl8aSP3vb1uHP9hrSHn9pLPm7en82uBkO+0m/tvMY2h5/aYTk72Y49GR+5mKIa4+/NHz8+ZyrdJ9cao+/NEK//6Ry5c+nPf7SIH/9+yN/9UL++vdH/uqF/PXvj/zVC/nr31/p/H3bKPV14942rcdf+v0stP9C2u9GR0+GJ7P038Kf+xzM8WhzXNq1LqZ9rL/Tsc7wt1r+cpbt74t1rK51+Kundpu/+XJ5Ost07C3g4+9EWC/V2nMmdhmfUXr3d6cO50P4VOxvtNO+XO7xJ7PW/w/2Z2L8me7x50fM86e0lJ7rXc+frqXkHH8ya+dvbs6ET7na409mrfGztcq1v/vR38PGvU0al8FfXP5Sy7Wvx9HRd2H8Zc/4WfX5m/zthfEX/LWRv70w/oK/+vNnlj3+wu9H9edvrvDXVv7wdwj5698f+asX8te/P/JXL+Svf3/kr17IX//+yF+9kL/+/ZG/eiF/ffs7dpG/MJb8hcxfSl3GeMBfXfkLLfzh73/yd2nc53L1G/78CfE3udPzhj4P/85Fwd/x8fV3abmy3+OvDL7+bFc1uMMfzy/4w19Jnsd6KVS/1Xz//Sp4bLpe47v2KPz4WLbm/JU+Nl01U7Jf3tT8tf+z8PG14A8AAAAAAAAAAAAAAAAAAAAAACCEP27TIM0ArwAA
+  </data>
+ </layer>
+ <layer name="Top2" width="112" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2bS07DMBRFDSkTGCHEhAmDihkzygooEt0B7AA2wWcDfDYAYiHADlgTDikiSp3abpzmPesc6SpV4orA4app+moMAAAAAAAAAAAAAAAAAAAAAKSisNkgzmhgbIb/O0mNBvCHv1yjAfzl7W9/VG0nNls235tVivm+7fn+VddLjgZ8/vasjx2bqX18Y/59XJtq34HNrMN6ydGAz99l7fFR7XH9eVcd1kuOBnz+LjzHy8w6rJccDcT0ry1t/QtZLzkaoH95+6N/sqF/efujf7Khf3n7o3+yoX95+6N/svH5OzHVPedJbTtp7DvtsF5yNODzd2aqe87T2nba2HfeYX1MjovFHBb4G/r/PCTl5xq31tWdzf08Dz26w196f4/W18emMZ82XzYv+Pv198fQjnz+Xov/zxPLvONPTf+GiAZi5iea15Wu60zXzETIcyXOVWggZn6ieV3pus50zUyEPFfiXIUGxkuOlb9DyPvxetpmJkIi7X29Bnz+Qu6HpQr9iyd1/7qE/sWjpX/l6zD3XxbR1D/X/ZejHs9HA1r6V8Z1/wV/7Ujrn+v+C/7akda/dUcDmvqHv0XoX97+6J9sUswvpQr9iyfF/FKq0L946F/e/uifbOhf3v7on2zoX97+6J9sVpmf72srba5eA6vMz/e1XXWuHn8Ef/lFA/jDX67RQIi/v7mhtzV9b0tKNBDir5wbepo7ey76/96WlGggxN9rw1ff39uSEg3w+oe/XKMB/On2N/TfaGc0/Dnk6G/Z8VTHytnp3SX+xrX16zgf/LUfc/1M33nUj6U+n1z8AQAAAAAAAAAAAAAAAAAAAAAAxPADwXgQUgCvAAA=
+  </data>
+ </layer>
+ <layer name="Top3" width="112" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aMUoEURQF0RHNjMRNuQSX4P5XoPHA2A0tVF2pA5V18u9LJpjbLUmSJEmSJEmSJEmSJH/lqR62gN7I3AJ6I3ML6I3MLaA3Mrfg6A3PJ7658r25BUdv+DjxzZXvzS2gNzK3gN7I3AJ6I3ML6I3MLaA3MreA3sjcAnojcwvojcwtoDcyt4DeyNwCeiNzC+iNzC2gNzrbx3P3O4O+06M+f+73+tL9jtB3+u1+b93vEH2n3+733v0O0Xfqftfcv8Hyf4jPfr+ccv8Gy/8hut859J263zX0nbrfNfSdut819J0e9dX9TqHvZGoRvZmpRfRmphbRm5laRG9mahG9malF9GamFtAbmVtAb2RuAb2RuQX0RuYW0BuZW0BvZG4BvZG5BfRG5hbQG5lbQG9kbgG9kbkF9EbmFtAbmVtAb2RuAb2RuQX0RuYW0BuZW0BvZG4BvZG5BfRG5hbQG5lbQG9kbgG9kbkkSZIkSZIkSZIkSZIk+W++AacV0lkArwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="112" height="100" visible="0" opacity="0.51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3T0W7CMAxAUdT//+g97QXBEuwEx9250hXVFIrdu16Px+MiSZIkSZIkSZIkSZIkyRv4S/UczPXTsaed2T1/dZv/0m/n5+l2xvu3Zv7o+SzP78uO+57uaI9Xzyh6vavfLqrbrOg3s2P0fBbv39wes2eq+u2iuo1++fuf7mj+mR2j57PoN55/Zsfo+Sz6jeef2TF6Pot+4/lndoyez6LfeP6ZHaPns+g3nn9mx+j5LPqN55/ZMXo+i37j+Wd2jJ7Pot+a+aPns+jXG/16o9/5VM5f3eZO/Sp/+2RPR794vxNm0S/X79N9V3z3+e/6fadfBv30W011G/1yVLfRL0d1G/1yVLe5U7/I/CtmOt3R/N/ir36ffmcV1W3u0G/1dz69/+mO5v8W+um3muo2+uWobqNfjuo2+uWobqNfjuo2+uWobqNfjuo2+uWobqNfjuo2+uWobrOi3ymzvJtvJ9Vtdjyzk9CvH9eb612/dbqd0a83+vVGv97oN7fDq89PnsFKrjfXO6hu0+n9i8yiX2/0691Rv94d9Tv3f6V6NpIkSZIkSZIkSZIkSZK8mz8tdqfsAK8AAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="112" height="100">
+  <object name="paraFora" type="warp" x="1632" y="2496" width="224" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="2752"/>
+   </properties>
+  </object>
+  <object name="Comentário" x="2240" y="1728" width="640" height="640">
+   <properties>
+    <property name="Comentario" value="Essa área precisa ser melhor utilizada..."/>
+   </properties>
+  </object>
+  <object name="Juiz A" x="896" y="864" width="32" height="32"/>
+  <object name="Placa de Regra" x="1728" y="2368" width="32" height="32"/>
+  <object name="graphics/particles/pentagram-linedraw.particle.xml" type="PARTICLE_EFFECT" x="972" y="2363" width="8" height="8"/>
+  <object name="graphics/particles/wispdance.particle.xml" type="PARTICLE_EFFECT" x="976" y="2465" width="8" height="8"/>
+  <object name="Juiz B" x="1504" y="864" width="32" height="32"/>
+  <object name="Menir da Alma" x="960" y="2336" width="32" height="32"/>
+  <object name="Halloween 2010" x="2048" y="2336" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="147" height="61" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Casa Morgana"/>
+  <property name="pasta" value="casaMorgana"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="teto" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="43" name="interno1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/hlw_interno1.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="203" name="objetos_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/hlw_objetos_x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="211" name="interno_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/hlw_interno_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="227" name="tapete1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/hlw_tapete1.png" width="320" height="192"/>
+ </tileset>
+ <layer name="Ground" width="147" height="61">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YO27CQBRAUfZCmZANkGT/G6KPCyIhZDwf8/wGc4pTDA4KmDsfOB4OhyMAAAAAAAAAAAAAAABs7GPyOTlNvgrjucdanl8a1/5t9j2j3NL95zk3Xvr8W8elbh+No+7FefI9+Zn8Bo975lV2K89uaamHnpZq16It1qUtW+qZV9mttLY0p6Wle0vXe/fDvbb06P1eruPsVtauS6UGnrXHtYz30lLrvMpuRUvjtlRzLy5Xr9pSaY+7faz0/KXrPfvrFt/jeluJmFev3FLteefZ56Xatk7B92PNuhM9r7Jb6Wmp9JvA7eO1Lc3t/6O1tHYPi55X2a20tlT7+a5Zz//HPfvryOel6HmV3UpLSzW/F0a2VPs/Rm0pel5ltxLV35r1fIs1Jrql88z16HmVfX+2aql3r8x+L2vNtVQzr7Jf9yi0tNxSzb3Ift2jqNnfa8/V2e9FS+O11Hpeij5HZ7dUmlfZr/tV7KmVEuelWO/UEgAAAAAAAAAAAAAAwKj+APNFNCMcjAAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="147" height="61">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WuU7rQACF4QlctluxrxdeCCiogQIJaIACKdAg8QLo8gbwHFDTQB3gGdj3fT8WjmIiO3gmEMXJ/0lHtozHScyZsY0BAAAAAAAAAAAAAAAAAAAAAAAASi+j7Ct7/tbLrr/N+Mcz/rFM4Ly9iDHfXSO4v+/4+UC5K9W8MsZtXiXJoDIUkWGHMTbXqSbZPh0oh8qRn+MCOSn917S2qiz7+6PKWETGI8YXGmNznXLjMq9sXSnXyo3SkorOlv5+90Of+ZtW/YyY8u7SpDKlTDuOt+VyL2y9KK+mcI+ySUKX/pvPLk2Y+Pcv+Owupku7Ft8zrSwoixZjbKX967vOK1v16kiDcqv9NxPeoQ0d3zTJ6NKasm7suhRUac+4JeN+L2w1x1iPtnXejklGl7LmDV3yerRi3LrkvdOcKmfKuXIRsr3MGxOnS9569e6dnPrZ3/rbqr1L2Wec67y6Vx6UR+UpZPucd36cLjUqTcpfupSoLgW53IuU/t81Sq3yJ2Rbl9eHOF1qVdqU9oR1aUaZjchcxBi6lGO7LvWqH33f5J/SrwwkrEsuKrVLLvPKdl3CV5XaJRe26xK+oks5rEvFoUs5rEvFKfReYfOuUQk6tO50Kl1Kd8i2h3UJAAAAAAAAAAAAAAAAAAAAAAAAQBX7AA3IU+UcjAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="147" height="61">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VN0tDURyG8fuZVHS366iDZQo6WCbRwbLYBstmL5O9C6KoYEPEAi4WrN/GVziBazA3ak5ykvj84OGce3LLfxE9DwAAAAAAAAAAAAAAAAAAAADw33T79hWqMsb9/b79kBr2XfdGeabO5Bf57I5Za1St2Vep6hjzwL1clRfw+4hZxwLumVGz35xnqWyVE3E++oNnm1Sz2TeoxoDvJ0tPEr6xbdYBNZiE79lUrEoCfp8366LvbC7innW18c2z+apAFUacL/zg2U7VZfbtqiNgRlv21YE69J0F/Q3Z/Na5WU9Vn5pS097X/xepLmSC512pa3XjO1uMcm8ivuW3qtYS9G0Af9fieoAUsOd6gAzTqtpUvetBkuTS9QDIOJtqSx25HsSRUlWmyi28qyXKPpU8qxezhvefPZk1LHz2G8fqRN3GPybSxK5Zx9WEmnQ4S6YIxbgO8mBvDGeW1LJasfjOC4vvSkdFcTx7p+5tDZLGzlwP4FgoxjUAAAAQ9uh6AACAda/qTb27HgQAAAAAAAAAAAAAAAAAAAAAAOAf+wAIFZZrHIwAAA==
+  </data>
+ </layer>
+ <layer name="Top" width="147" height="61">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Xe0rDQBAH4IJP8FXxcQHPIKjnUI/jX+p5LHgBb+ZKKwkikk4m7TZ+HwyF0p1tlt806WQCAAAAAAAAAAAAANRqp9R+oE6D67L67A5xGPSyF1x3lrR/tM80af+26FyZoTlZakTPImI7uG6I684iS432WbwP0D+DLOX32fTfpajas/QUWBf9jc7qI0v12YTz+3Zf6qHU46SuLF2UOv+jtlqfPVy8dxncS5by1ZSln/fpt8XrbIk1Xf3HLN2Uui11N1D/mrP05SOwposxZukgaf9on5qz9FzqpdTrEmu6GmOW/I9rRK6hpuvOIksNWepnyPO7TurzG1mqz1Gpk0BlPbNPg/sfJ+3fJkv9XAUrM0vR75BtlXNV0wxlkaXGKs+ipuvOIksNWVqPzCzVQpbWI/pssUn3/66iWWJumdkZ+5xF5moMM5RFlhruVf3IEgAAAAAAAAAAAAAADOcTWfzKyRyMAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="147" height="61" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TW26DQBAEQMT9D53faLU44Czutl0tlcAy+xqGfdu2HQAAAAAAAAAAAAAAAF5sG+5n2SfX8fmjOca1Zs//Nfboni7JPLv+nbWY1WZ1nR6tNT437qNZMo291Jx0rzTXUS+dy/7r2iyZK+t/ei3GzPaT7pV3q+FRWutxZb5n1kj3Rrqf7u7TpjqMY87M9am99I5pqsU+ua7spXFcs2Rm3/TZcS01mZ1hdS/N+rTRXTkz99EzZ95FSy2eGXflmxl/N0vmP++vpRZ39tJsXLNk2mr6qjO0nTttRdJn0EsdViR9hlQt0vttsyLpM9xdi6P/0vttsyLpM6Rqkd5vmxVJn0Ev9fu2ul1Ner8AAAAAAAAAAAAAAMB3+AHWIowJHIwAAA==
+  </data>
+ </layer>
+ <objectgroup name="warps" width="147" height="61">
+  <object name="paraBaixo" type="warp" x="2784" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="paraCima" type="warp" x="640" y="832" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="2784"/>
+    <property name="dest_y" value="928"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1312" y="1248" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="013"/>
+    <property name="dest_x" value="5248"/>
+    <property name="dest_y" value="1024"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="margem" width="147" height="61">
+  <object x="0" y="0" width="4704" height="640"/>
+  <object x="2112" y="640" width="608" height="672"/>
+  <object x="0" y="1312" width="4704" height="640"/>
+  <object x="0" y="640" width="608" height="672"/>
+  <object x="4096" y="640" width="608" height="672"/>
+ </objectgroup>
+</map>

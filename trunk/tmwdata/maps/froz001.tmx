@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="folder" value="froz001"/>
+  <property name="name" value="Reino de Froz"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="woodland_indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="woodland_indoor_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="275" name="woodland_indoor_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="291" name="cabana_in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="371" name="hlw_interno2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/hlw_interno2.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="515" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="771" name="numeros" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
+ </tileset>
+ <tileset firstgid="881" name="hlw_interno2_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/hlw_interno2_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="897" name="hlw_interno2_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/hlw_interno2_x3.png" width="352" height="96"/>
+ </tileset>
+ <layer name="ground" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dy23bUBAFUAUpgSUkSIBsHSQdOK7ANlKA7f4rCDcCAkPWh59355FncTbmYoYz98laPd0dDoc7AAAAAAAAAAAAAAAAAAAACPo8U7V+KveW6qd13XSmlzTMVK2fyr2l+mldd+l6SV9mqtZP5d5S/bSum870mr7eKF2/p95S/bSum87wmnrZeY+9rdnP/ejPCQ+BOaQzvKZKO6+cx2r9PI6eTngOzCGd4TVV2nnlPFbr52X0esJbYA7pDO9l5z309v7vFXfXum4605XyWK2fyr212OfPBjUqvGcr1Xd+y75bZKOnPryrOQAAAAAAAAAAAAAAAAAAAH2pdOc1+9v5uRpTny1pmKHS3pzZPnd+rsbUZ0uqdOf1nL2tOaOtqbTzczWmPltSpfuV5uxtD/e3b3Hn52pMfbanWaV72qJK83U+2vTifGxn53Of7WlW6Z62qNJ8nY82vTgf29n53Gd7mlW6py2qNN/q5+NaFe5mdz7yc07ka+qzrXE+6thT7nrhfMCyfM4BAAAAAAAAAAAAAAAAwGXuhaYHqVwOE6XntVfJz7Bk7eFKS9d1L3Rfrs3JGllJ1k7lssq9Ib7nLZuTVr9NkMjpt9H3Q5tcVjkfw0TpvLZW7e7DRO1fo98F33nNPnzP6yujVWsn33kPfVTXy45Stbeayyp9VNfLjlK1t5rLKn1U18uOUrW3msu/n6ZJ57W1HjLqfCzfh/OxnYxu8f96+t5n56PP3R1r/7CL+A4AAAAAAAAAAAAAAAAAAAD2rIf77NMz2psK93hXuU98uEGqdnL2LXNZxS2ZSGdj7T56uM8+Ofula/egwj3eVe4T7+E+sOTs01lNuB/9OeGh4Y6q3Ct4qd5xVg/BGSRnn85qwuPo6YTnojtK9nGc1XNwBsnZp7Oa4Hxc38fL6HX0FpzBmnUvfZdIZzXhuPP33kI7qnw+KtRes+6lz8p0VhN6y2WVPlK116zrfCyTzQo9pPtosZsWd0X//06Xvkuks5rQWy63mNFe9p/utZJELq6tufXMtuR8wO18BgEAAAAAAAAAAAAAAAAAAAB7MfW3Vfz+B3swLCj9LrC0qb+t4vc/2IOpd1O6H449cD7gY84HfMz5gOW5fxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgun/ppguaAHECAA==
+  </data>
+ </layer>
+ <layer name="ground2" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dy27cVBgHcM9U0AUNFFAvsOAmXqVvkL5B34BIwJ7rCwAS7KoCi+5QJRa8Qe/dNFLvVVUq9ZK0tKVS25RvNDaZOJ7GhDk+mcnvJ/1ljx3NdxL7zDib7xQFAAAAAAAAAAAAAAAAAAAATKef+sMwNJ97AHTiQMt7/mh/GIYO5R5A6VTkdMN+ascjJyInO6rXlQ96RfFh5KPe8PXBlvf8H/1hUlmM7OytzeLIudfi9VxkV7mtztV/n0lqeu9B3bfi9UI5pjciuyNv9obHd5fHXu9oPJcjVxr2U9XdH9kXuRDHL0YuJaiX08e1VO7EvX+3vP9PxPZk5FR//blUFkf2z5cZnR/na1ks8shVd5x7kaWG/dRuR+5E7nZUryvj5sezuP+fl3PgYmwvRS73159L5Wbkz1putTjXtaaxjEsKhyPfR46Ur1ciLxr2U3saeRZ53lG9roybH7k9jvxdy5MW57rWNJZxSeHnyC+RXxO9/8v8FjmWoW6XNpof9+LZcimyHLkfeTDyrNv2f3lm03aYHxtZifnwYjAnYi70Iv2ROdH2f/lZVv98eVlmzV+RR7kHAQAAAAAAAAAAAAAAAAAAAACsMT9mC6z2uq5vIYUzkbORcxM8N0n1PtMLRfP27bIPd9UTel+Cntd0o97je+9Ir+93Iu++ZDtpVyPXIteL9TU2ey6X1P2w2/S/H4xhT3lN94xcW6bTcuT+hM/lUu+HncO4OfpezJH3zZNW2vY076TPeVyz3rjrttlzmdT7Yacw6Kt7o1jtrVvvET9ufvwYOZpoTLOmbU/zrvqc096gr+7DYrW3br1HfNP6K4McLcwP2GjNE5hl9eep+vPWRmuewCyrP0/Vn7cAAAAAAAAAAAAAAAAAAAAAAGDWteknTfeOR05ETmasm3rdgarv/Og6AlXvWfclldF7oR95EMcuRC5GLhXD16n6/9fvw9G618uf6XLtgdTrC9T93nE9JuN25E7k7jap+0rMv1d73c+PruuN+q/fkZ/sKIqFHWnHNC2eRp5Fns9w3abey7c6rttFvTa+iPv+y8hXkU8jn0U+j3wd+Sby7Y7VPu7b3XfFsH/xD7kHklhT7+UnHdftot44W2b9lilT71+cy6Cv+LENf4rNsn7LdBv0FddTHAAAAAAAAAAAAAAAAAAAAAAAYPuYzz2ALSplb/tTkdO1Ywf6CQrxvx3KPYBM6n2b95drIOxt6DE/aZcjV4phvapv/cGYH4/6edZcqObrmcjZ7spuOU1/+4Vi2F+8uk7VfbKv3E85hkHdnb21WSzHMxf7u8rMZVifI2WP+XuRpQTvu5H69a+ueTVfr0auFWvXSiFf//2muotjjnctZY/5lciLBO+7WdV8XY7czzyWrSjX/XizaF57oOl4aoM+2TeKPL2yD0eOZKhb+Xe+xvdGz3fHOrnmx+Oiee2BpuOpDfpkPyzy9Moe9NLP3Uef8Zo+r60DsT3k/N6cFk2f19aB2B5yfm8CAAAAAAAAAAAAAAAAAAAAAAAAzKr5CW9hlhya8BZmycKEtwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0+AfToVxAQBxAgA=
+  </data>
+ </layer>
+ <layer name="fringe" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cTUocQRgG4J6ZJDo/ZpOFZpFb5ArJAQSFHCFHmDNk7SonMEFxl4UBl54kJ4gH8BNmsAccEnuwv+7q54GXgh4a3qGrKGpTVQUAAAAAAAAAAAAAAAAAAAAAtGmeXaBg70bZDWjCd4NNZ7UAm84jF9klCvZ5nN2AUiwLnEunBf4ncvyNuXRnPgEAAAAAAAAAAAAAAAAAAAAAAB0wmVTVq8jryJvIXmQ/Mo3MIvPIInIQeTvJbgvDtHiB3wDqfmcXgA67zi5QgE8N72Ft+h7d8D27QE+cNJznTd+jPT+2PP8Z+dZmEeiRm+wCAAAAAAAAAAAAAAAAAAAAAAAAMED7kXlkFpmunh1F3qc1Ksvh6P8CT6mvT2BYftXywF4Cj25rAf7NHtIfl5E/46o6zy4CUNk/AIByfcwuAAAAAAAAAAAAAAAAAAAAAAAF+DLObkCWg9W4SG3RbV+tj8H6kF2gB5bWBwBAq5zfYTvn9/JdR47jO19lF+mA5+4Hzu8Mif0AtrMfAAAAAAAAAAAAAAAAAAAAAAAAPN/6DsBdRyjR+g7AXUco0foOwF1HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIC+uAc7JkdmAHECAA==
+  </data>
+ </layer>
+ <layer name="top" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dS5LbNhQFUHWW46p8qjy20wvwBrIEb8Tx/uKUZ/kvJOJAZTWbP5Eg8ACcU4VBt9SNRwGP1OjicgEAAAAAAAAAAAAAAAAAAM72/dPl8tPB8cNTrHoi11aqnpTz9uTHBJ/bc8LPPkU996LVVqqelPP2pOY13yJabfqjLjWv+RbRatMfdal5zb+OxpQe+uPTdfx6HZ8zzbvkl+/yzJNL1DVPJVptrT0/fruO3+9+/thhf/xxfc+f1/HXdfx9Hf+M/ibaHrwXrbaU9by7/q+fJ8aHid+9z/T8+PfaH/811CM1rPnUes+N8XtT7ou5/bh1j56xT988vRy39Xwe/T61tWttRfQ1n1vvqTH13tTWalir+ex6cvVH7vlKejsakdZcf8SkP/pbcwAAAAAAAAAAAAAAAAAA4HxHc69lT9cn0prP1TLMsfe1lI5mLKXMV0qVn69nl0Va87lanp/2v5ZSDZ/Vo+T9LqthzfXHa/ojjxrWXH+8pj/yqGHN9cdrt1qG3Okvl2/Z01sy4s+qqUUR13xqDv3xkudHHjWseZT+OJqBnDL/WH/kEak/3s3sr2Ff7X0ttSO5vinNnbkz/r61Rn8s23pPzJUJP+QK3++vtwleSylafxylP9ZFyryO3h9RPPJdL9e5K62K1B9sN87zXxvj+0fr9xD6pj8AAAAAAAAAAAAAAAAAIL0jGdFyocnlkX2acl8eyRCRG5Lfo/ezHGcTRNunUTIM9Ud+j65Xyb1Sau4W+8P3vG1q2aMl526xP6LUEV0te7Tk3C3uyyh1RFfLHi05d4v7Mkod0U19TkvnQeiPfPP2UEd0kffokCt+nymuP9qrI7rI/XHm3HNZzWefwTF3rsKWEeUskJ7645F9cuZeKXEuQokzBm7zTuXa3rK+57JwU1rLcl/q3d7y20tmry/Nfeb+2JrFfEYe89p15uiPWx2PZu/3mL+/dZ/kWKOcc/dOfwAAAAAAAAAAAAAAAAAAAMyrJc++p4zo0vZmeZc86yDCuQeDFjLrSt4TarA3K6zFPL8e+6PkNddAf+yvQ3+0T3/sr0N/tE9/LNcx5GR/ubzMys4195Cl33KOfg30x/46PD/apz/219FCpvzcNc89N/XHNi32R4+Z8p4fy5ay7nPl3O85F+PDCXUMxucNjPdoqbxu/VFOhBzvqfz2qfMwxu9LrWSefQmP3h97O/9joD/69sj6Q2/W7kGtPTMBAAAAAAAAAAAAAAAAAAAA7h05W8X5H7TuSDblFJlKtER/wDz9AfP0B8xbytfdmgHee/4ubZvK110b8nfphf4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACL5H8cDUkIAcQIA
+  </data>
+ </layer>
+ <layer name="collision" width="200" height="200" visible="0" opacity="0.43">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SW47jMAwEQGHvf+j9HRjxW1LTdhEoBBkNwhapf621fwAAAAAAAAAAAAAAAAAAAAAAD9b+fO7VyAxbv3/1bHbOxO7a4ns60xus1dqcR+9g2f/X+dG7zJhVtd2N3E3VOcye8dact8565tk6P3qXt7+LZf+1mvVmKsxk9l1nz6JnVcuWyjOq76/vI/qlnZ3t3nnyDVbOlsozqu/a9ze5U9XyjM731Dyj+q7lSL9pO39mtln7TL+Z9Jv+0s7P9JiR50k53NUcAAAAAAAAAAAAAAAAAAAA4K3ayid83V6l88FsZ6pCrvS8GL/vXme9c+3VzBmlMjDXr7p7Njrf0RqR5cx35u59Vo67Z+k5jcqz/M2977xj52s9rp59aVaje37RnZqR5e7Zm2e19312pje6UzOy3D1LzXR2j1/f9yr99p7gTiXe19Wzt+lR6Tu8hVnW06PSd4BKWoEMAAAAAAAAAAAAAAAAAAAAX9YKZIClNuH3r1R6LmS1g3+bkeNvpeeSmgO/38NyF2t/H9H76NnMeSTm/6vS7+SrztSbeh/NNKNf+g1w7T1snY3ovVWp3sk7j8zBtX0dPRv9Vpb/M7P37DtX2HtqHtUlZ3OkV6J36s5fzFFdcjZP6P3Wd1klR3XJ2SR7r+WZOfen7P1vJTNXkZyDHeTZAQAAAAAAAAAAAAAAAAAAAAB3tQIZ0pYzMBPa4vNr9urtGWbd8UkSe9jKUHEWM+ZTre+v/0vuptqbSGWoNIujZyN7z+67VcndVHkTiVlcrdE5jp6N7D2771al32pChVlcrTe9lUp9187TbzXhbFXIMCrLE3rP6Lt2nn6rCVeqQoZ0jlm7qbT/9FtNOVvp/qNyrGVL76fK7tNZK0nM42hPu+o786OVzgpVtAIZAAAAAAAAAAAAAAAAAAAAAACgqtb5E96kZ6XvAr31rPRdoLeelb4L9Naz0neBKlqBDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABP9R/S7Cy3AHECAA==
+  </data>
+ </layer>
+ <objectgroup name="magin" width="200" height="200">
+  <object x="0" y="0" width="6400" height="640"/>
+  <object x="0" y="0" width="640" height="6400"/>
+  <object x="5760" y="0" width="640" height="6400"/>
+  <object x="0" y="5760" width="6400" height="640"/>
+  <object x="1088" y="2944" width="640" height="640"/>
+  <object x="5120" y="3968" width="640" height="640"/>
+ </objectgroup>
+ <objectgroup color="#00aa00" name="warps" width="200" height="200">
+  <object name="paraforacasinha1" type="warp" x="5600" y="928">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="160"/>
+    <property name="y" value="50"/>
+   </properties>
+  </object>
+  <object name="paraforacasinha2" type="warp" x="4704" y="896">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="143"/>
+    <property name="y" value="41"/>
+   </properties>
+  </object>
+  <object name="paraforadalojadearmor" type="warp" x="3712" y="928">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="155"/>
+    <property name="y" value="56"/>
+   </properties>
+  </object>
+  <object name="paraforadaloja1" type="warp" x="2624" y="928">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="160"/>
+    <property name="y" value="41"/>
+   </properties>
+  </object>
+  <object name="paraforadaloja1-1" type="warp" x="2272" y="928">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="154"/>
+    <property name="y" value="41"/>
+   </properties>
+  </object>
+  <object name="paraforadocacino" type="warp" x="1312" y="967">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="32"/>
+    <property name="y" value="55"/>
+   </properties>
+  </object>
+  <object name="paraforadobar" type="warp" x="5632" y="1952">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="134"/>
+    <property name="y" value="49"/>
+   </properties>
+  </object>
+  <object name="paraforainfermaria" type="warp" x="4416" y="1856">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="136"/>
+    <property name="y" value="29"/>
+   </properties>
+  </object>
+  <object name="paraquarto1" type="warp" x="4352" y="1600" width="32" height="32">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="104"/>
+    <property name="y" value="58"/>
+   </properties>
+  </object>
+  <object name="paraquarto2" type="warp" x="4288" y="1600" width="32" height="32">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="97"/>
+    <property name="y" value="58"/>
+   </properties>
+  </object>
+  <object name="paraquarto3" type="warp" x="4224" y="1600" width="32" height="32">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="90"/>
+    <property name="y" value="58"/>
+   </properties>
+  </object>
+  <object name="paraforaquarto1" type="warp" x="3328" y="1888">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="136"/>
+    <property name="y" value="51"/>
+   </properties>
+  </object>
+  <object name="paraforaquarto2" type="warp" x="3104" y="1888">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="134"/>
+    <property name="y" value="51"/>
+   </properties>
+  </object>
+  <object name="paraforaquarto3" type="warp" x="2880" y="1888">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="132"/>
+    <property name="y" value="51"/>
+   </properties>
+  </object>
+  <object name="paraforadobanco" type="warp" x="1984" y="1920">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="126"/>
+    <property name="y" value="29"/>
+   </properties>
+  </object>
+  <object name="paraforadalojap" type="warp" x="5536" y="2912">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="113"/>
+    <property name="y" value="45"/>
+   </properties>
+  </object>
+  <object name="paraforalivraria" type="warp" x="4288" y="2880">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="105"/>
+    <property name="y" value="35"/>
+   </properties>
+  </object>
+  <object name="paraforalojapot" type="warp" x="3424" y="2880">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="76"/>
+    <property name="y" value="46"/>
+   </properties>
+  </object>
+  <object name="paraforadacasiinha." type="warp" x="2432" y="2912">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="64"/>
+    <property name="y" value="31"/>
+   </properties>
+  </object>
+  <object name="parafora" type="warp" x="1440" y="2912">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="51"/>
+    <property name="y" value="35"/>
+   </properties>
+  </object>
+  <object name="parafora2" type="warp" x="5600" y="3936">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="56"/>
+    <property name="y" value="56"/>
+   </properties>
+  </object>
+  <object name="parafora3" type="warp" x="4608" y="3840">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="112"/>
+    <property name="y" value="60"/>
+   </properties>
+  </object>
+  <object name="paraforacasa4" type="warp" x="3616" y="3872">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="106"/>
+    <property name="y" value="60"/>
+   </properties>
+  </object>
+  <object name="paraforadaloja1-2" type="warp" x="2752" y="3904">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="83"/>
+    <property name="y" value="60"/>
+   </properties>
+  </object>
+  <object name="paraforadaloja1" type="warp" x="2432" y="3904">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="77"/>
+    <property name="y" value="60"/>
+   </properties>
+  </object>
+  <object name="paraforadohotel" type="warp" x="1504" y="3904">
+   <properties>
+    <property name="map" value="froz"/>
+    <property name="x" value="50"/>
+    <property name="y" value="55"/>
+   </properties>
+  </object>
+  <object name="pararecepção" type="warp" x="5600" y="4832">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="46"/>
+    <property name="y" value="114"/>
+   </properties>
+  </object>
+  <object name="paraquartos" type="warp" x="1472" y="3616" width="32" height="32">
+   <properties>
+    <property name="map" value="froz001"/>
+    <property name="x" value="175"/>
+    <property name="y" value="150"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff557f" name="particle" width="200" height="200">
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="5536" y="720"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="4576" y="720"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="3424" y="720"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="2688" y="720"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="1024" y="720"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="4128" y="1648"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="5248" y="1680"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="5344" y="2704"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="5440" y="3664"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="4704" y="3632"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="3488" y="3632"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="2400" y="3664"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="1344" y="3664"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="1312" y="2672"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="2304" y="2672"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="3520" y="2640"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="4608" y="2608"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="1728" y="1680"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="3376" y="2736"/>
+ </objectgroup>
+ <objectgroup name="scripts" width="200" height="200">
+  <properties>
+   <property name="file-alicia" value="alicia.conf"/>
+   <property name="file-ares" value="ares.conf"/>
+   <property name="file-banco" value="banco.conf"/>
+   <property name="file-biblioteca" value="biblioteca.conf"/>
+   <property name="file-enfermeiras" value="enfermeiras.conf"/>
+   <property name="file-jeremias" value="jeremias.conf"/>
+   <property name="file-joseph" value="joseph.conf"/>
+   <property name="file-maq_c_niqueis" value="MaquinaCacaNiqueis.conf"/>
+   <property name="file-mestreninja" value="MestreDosNinjas.conf"/>
+   <property name="file-saber" value="saber.conf"/>
+  </properties>
+ </objectgroup>
+</map>
