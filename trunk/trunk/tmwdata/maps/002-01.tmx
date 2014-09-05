@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="95" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/002-01.png"/>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Sala_Principal"/>
+  <property name="pasta" value="salaPrincipal"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="blockWalls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="blockWalls_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/blockWalls_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="275" name="blockWalls_in_x3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls_in_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="323" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="579" name="sombras" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sombras.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="603" name="numeros" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
+ </tileset>
+ <layer name="Ground" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZTUoDQRCA0W5/TqhG9yp6gBA9nZt4MBuMEDIlZghYo/UWjwlMQaY+hs4i29baFgAAAAAAAAAAAABo58PFzNkMl0c+45zZv+S658refyntb4I2j8NmeNl5HW6DuadgbhXMHX5H9v6ZHsb+d/3z+pued9fs/TOte67s/bWvab/DVXA+t7PW+oH9+6sZs1+0n7a/D87l6F397gw/dlb7afs3Z05a+7DN8B58PnW2evvs39nK/bObV26/hP7Z+2tfk/baV6S99hVpr3012d0r989uXrn9Evpn7699TdprX5H2yzbp1X/+fyr7mf8L7zMAAAAAAAAAwOk+AO2YlpbAdgAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZT0rDQBzF8Ulr90pb3CqiLt24ca2Luhah1QtYPYF6AI8gnsiFKOoBRD2A+HfvC2nJNMSIMJnYzPcDjzZ0mrSvP1LSGgMAAAAAAAAAYWkqMzVLy2lD5TlQtmqWodOGykP31XHR/dofQvepsua+ys8g9O6rzLR031Y6NUvXaUMAAAAAgLq6Ue6Ue+XW4zoY86A8Kc/Ko8d1MOZFeVPelVeP6wCEp6cMImP2lH1l+Yd1S8qlHj+Lku2LX9ba+9x2/qqn07qyYW33laH6OVSORn3ONiYz10j6jJ1H6XOL1tr7HBQcPySbJvlPaCye+2P1c6KcKivaXmhMZlFZzdlX0Vp7n/bcZ48fkux773s4pj33IXef1Rvdfmg+Px3na3R+4nyfL577K3XU1Lli3nFaynXmfB+6Xet+PPdld2/P/Y7n9/qfMffV8T33SDH31WHu/cm7rvU591zXpnzPfcjXVnnXtT7nPuTus8a/KZTVfYzv2nx0X51x92311HGcLt0DAAAAAAAAAAAAAAAAAADU0jdYX98PwHYAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Y7QmCQBzAYW2DmqzvvWzTCA3RCBHN0QitEX4QTVTwAv/aPQ9IcgmnPw4tiwIAAAAAAAAAAAAAYD32m9gtZ9rH0T6O9nFSe2n/u9QO27IodmXzOcec/yilw6vV+5bYPnfHkTV4GWhajb9b393L8WO76vlO+g+2vw707Bufcqx13//ce0y8f0zxLL/nrfdz1P3NUtF+XpHtcxZ5z8m9v/ZxtI+jfSzP2hiHwHV/1t+6D7CE61/COUToexc/x5z+1zYi2wMAAAAAAAAAAACwbh8nG9G0wHYAAA==
+  </data>
+ </layer>
+ <layer name="Top " width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3W7U3DMBSFYYfCBHwNUAoDlI8B4D/LhgkKG8A+3CqNZKLYuVFrHVq/j3SltE1t9/TGSQgAAAAAAAAAAAAAAGAfS/UCClipF+BE9jpkr0P2OmSvQ/Y6ZK9D9jpr9QIOrLX6UC+iAOU1ciy9XArZ65C9DtnrxNkvrM6jukh8ZzHyXu7c1Jhkn/d+5h/Le25/Xu3ZTymZPfLI/rSQfWfsvllan33q/lyLN8Gcffavgrn/E8XzPc85HbLXIXsdstch+7rwfK9D9jpk32kd9TNzzG/nuO3+yz9qG6vLJoQrq+umez1Wc8dM1XCumm1//9pyeLF6SmT/Gfx9vK2vkTE2iblqlutLz/Xg6e3cODXL9WV8PPU/xJ8Pezt3XdXM28tT+9LU54e4j5yaOTn1/X1jdbvr8/547r5E9j5xVkvL+N7qweouOl41ZFrCcG953u0vj9HxcK8BAAAAAAAAAAAAAADAX79ktfhwwHYAAA==
+  </data>
+ </layer>
+ <layer name="Top2" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XMREAQAgEMbww798iGmj+ChIDW28VAAAAAAAAAAAAAAAAAADwQwfbL9gGAADgju1/Jl8ZAAAAAAAAAAAAAK4Ym5qgF8B2AAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="95" height="80" visible="0" opacity="0.5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VQQqDMBBA0ej9D91N3YhBU2NmbF7gLRRR5gfMWkpZAQAAAAAAAAAAAACAV1m+Rj83oyVI9NwZaB/f/uq+tOxh6/dmo/372teutf+t/b5breeVe2fvjJ47Q/Ozfr3PV2eu9hlEtY+eO4OjLrWl/fPt91qX9v3a9+qv/Zj229L+fntnrfb/RPu45lHtZ94D7eP55+Qwoj3aZ6N9PvpqPzu9AQAAAAAAAADafQB389IjwHYAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="Margem" x="0" y="0" width="640" height="640"/>
+  <object name="Margem" x="2368" y="1888" width="672" height="672"/>
+  <object name="VarandaReunião" x="1152" y="1024" width="64" height="32"/>
+  <object name="Escadaria-Terrea" type="warp" x="1472" y="1024" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002-04"/>
+    <property name="dest_x" value="1504"/>
+    <property name="dest_y" value="1024"/>
+   </properties>
+  </object>
+  <object name="VarandaBiblioteca" x="1792" y="1024" width="64" height="32"/>
+  <object name="paraFora" type="warp" x="1408" y="1824" width="160" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value="3200"/>
+    <property name="dest_y" value="2240"/>
+   </properties>
+  </object>
+  <object name="QuartoFeminino" type="warp" x="960" y="1248" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="002-02"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="1280"/>
+   </properties>
+  </object>
+  <object name="QuartoMasculino" type="warp" x="960" y="1568" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="002-03"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+  <object name="QuartoFeminino" type="warp" x="2016" y="1248" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="002-02"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="1280"/>
+   </properties>
+  </object>
+  <object name="QuartoMasculino" type="warp" x="2016" y="1568" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="002-03"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

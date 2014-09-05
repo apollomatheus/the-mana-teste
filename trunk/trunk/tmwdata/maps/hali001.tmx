@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="folder" value="hali001"/>
+  <property name="name" value="Halicarnazo"/>
+ </properties>
+ <tileset firstgid="1" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="woodland_indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="cabana_in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="593" name="cabana_in_fada" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_fada.png" width="256" height="224"/>
+ </tileset>
+ <tileset firstgid="649" name="woodland_indoor_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="665" name="woodland_indoor_x2" tilewidth="32" tileheight="62">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="681" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="683" name="hlw_interno2_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/hlw_interno2_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="699" name="hlw_interno2_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/hlw_interno2_x3.png" width="352" height="96"/>
+ </tileset>
+ <tileset firstgid="710" name="hlw_interno2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/hlw_interno2.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="854" name="numeros" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
+ </tileset>
+ <layer name="ground" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dTW7UShQG0O6MmObtAHaQMHhvAcAKgBVA9j+D4euWiGRZfRuXO6573XWQjpAcFNff1+VUTNWvw+HwCwAAAAAAAAAAAAAAGjwdb5ddB9iKfEBs9Hwcj8tUKUdG2UYmH8t8+GOrcjwe18tuw0r9Nv/arfcZPR9VxuL743r3PkZb+m3+tVvvM3o+qozF1/lpjay26zVGW/rtv4e37a/R81FlLO4xH73G6C3tdet95KPGWNxjPjLLd/6+n04+z3yRj9RxWaUc8nE4fD35NvNdPlLHZe9yXPqMnH9OVm+7re4tH3X6OCsfl8bAfBxUb7ut7i0fdfo4Kx8/Tn5e8CIfF9vm5Y3vLR+185FZprcqc3Yf30I+aozFPeZjBPJhLBKTD/mAiHwAAAAAAAAAAAAAAAAA7NPoZyeMXv+qqpzx8Xgc++yE0etf1d/6pVc/VT07oZfR61/VXs5VyG6nrY1e/6qq7Asx+vgYvf5VyUcNo9e/KvmoYfT6z1VZN7rWJ9P732s+9tAPI+ajyrrRtT6Z3v9e87GHfhgxH3tYNxohH3vohxHzUeW5f+q5UD/0Ksu5bZecjdV7nFbqiwwV8zGic9suORtLP/TvF/nIJx81yUcN8lHTtSz0XFcdnXzUVGXdaHTntl1y9qh+yO2j7DKMynNufaOv5WWSD4jJB8TkA2LyAev4uRAAAAAAAAAA+on22joc+uy9BZVFe20dDn323oLKor22Phz77L0FlXl3GGLyATH5gJh8QEw+ICYfsdbzWbaU3RYw13o+y5ay2wLmWs9n2dKW9ZzOU/8+5Mxb0ZzZep1+WveX2dKW9ZzOU+d8ZMxb0ZzZep1+sjPRKx8V3puI5szW6/STnYle+aiwLhPdu/U6uX0mH/3KsOY6uX0mH/3KsOY6uX0mH/3KsOY6uX0mH/3KsOY6+yYfy8uw5jr7VjEf1UT1bb3O/sgHxOQDYvIBMfmAmHxATD4AAAAAAKCNPccgZs8xiFXacwyq8c4CxOQDYvIBsddx/+nkc+DLJB/WthjJ67j/evIt8H2SD2tbZMn43UNrPqxtkSXjdw+t+fCzCVkyfvcgH+xFxvh7/d4/Tn4GXuSDAjLz8RbePeS34Ra8m1bD3vOR3X5b8W5aDfJRU+a7aadve3hotEk5Fs6hPdZa5aOWzPo/nvzTaJNyLJxDe6y17mH8PU/KU7F8Pftly/q/P9+/0SblWDiH9lhr3UM+RpKZj6eT5z9//835331MboPMZ53scTKqzDHxfMU0E9PrmW0gH+Opmo9IZhv0HqvPcpGuaj6eguuZbeCznLPfne5j/oDY0kxMfwbZohzyQUXmD4jJB8TkA9qd1zV7rm3KB8TkA2LyAe16P+cBAAAAAADQl70EIWYvQYg555YMFfZvXML7aWSosH/jEvJBhgr7Ny4hH2Rofb8+65lLPsjQmo9Lz1yvfyqUM7s9uS/Xzh+/dA551rOXfJDh2vmYlc7JlA8yXDsfs9I5mfLxdlrX9Kut9ffU+vOHfOxf65p+tbX+nvaSjzn/P3+91jX9amv9Pe01H+T3+RZl28uz3vyzWT7uR+V83MuznnzsV+V83OOznnzsS+V8VCoLY5IPWC9z/MkH1ckHxOQDYvIBMfmAmHxArOr4874dFVTNB1Ti8xoAAAAAAAAAAAAAAAAAAAAAgC39D1d4RfAAcQIA
+  </data>
+ </layer>
+ <layer name="ground2" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dyYscVRwH8KoR3JebHlwColeDQfGmaBK9CSYmZxH1D8h/ETTRgwGTW8xiFFzGePKqCFncUANmlWAi2ZSoSTBx+7WpZoqequkeZ7rqzdTnA1+qu2imXnW933RVT817WQYAAAAAAAAAAAAAAAAAkLZb82a2c11D21nMHplouwXdc0/02yVF2vBZwnVzc7Ttlpr23R7r72i47b362BPb3BvZl/D7tpBsi/f0zYmp5dYiPQfyZuvjvtjG/QPbSbk+7oq23V2078ZSO6/Nx/t5+Gocn9ciGyo+L76P7R6MHEr4fVssmq6Ph2IbDw9s50Cix3l/tOvzfPrj9aU++3IL5zunoh2nI2cSfd8WkhP5zDnZUH0Ma0OKDke7juTTH7ftj2jH5ciVRNqzkF3IZ87FyAORpWOuj2FtSNHZaNe5fPrjJk3GNo8X2Z3o+wRlX0c//aahvqo+SNXR6I/HKs6vJhvsq+djO78W+U19kJCfoz/+UnF+dV5fhezvqIF/1AFA8pb5XQ0AtODBfCqXsqspr/s/WVZ6DAAAAAAAAAAAAAAAAMB0qyr+/+om/5NFh/XHOb8+8nyx7D3vrb8hcueY6+OZgZ/fG1v6lcjGiXbGloae/vj8Zet8VsA0Hw0ZQ/5EA3VTHse2q2PZbo193hTZ1sF9T9mnQ8aQv9DA8SqPY9vVsWy3xz7viOzs4L6nZtT5PW7Lrwa6ZKb5PZ4unrc97yGkqF8f/Xl5lnawPr7t4D4zmq7UR3+ewqplqnMuQgrUB9RTH1BPfaTn0Tgmj0Wey32v2jb1kR7fq6bjx4bvH2C4rnxvtBD83vD9AwAAAAAAAAAAAAAAACwcjxiXG7L9eZZ9XvG/V+oDsuxw1MYR/5sIlc5GbZxTH1Dpz6iNv9QHjKQ/B0oX5z6BYfpzoHRx7hMAAIC2rfe3Upjmu3x4FoMvYj++bHlf+vdx3JjPbT3Mt6PRx4613M/q7uOY7XqYbz9HP/ul5b7Wv4/jk3xu62G+/R197J+in70ey20t9Lm6+zhmux7GaXv0uZ36HQAAAAAAAAAAAAAAAAAAdMb7E1n2gTHPAACGOpGPlp+M30IHXchHyyX1AbUOqA+oVa6PdyeybDLyYWR38Z3We77bogVf5VPjsrfJ5wdtezV+B7828Hv4hzyNcdl/HOEaHtrQH5e9Tb+PcA0PbTAue3pWOR7wnz1RC3sj+0o18bz6aNXWluYcYbrv4zgcjBwqHY91xeMNE9XXjW3YUqQLzDmSjlNxHE5HziR+PN4pAk36I+ricuRKC/WxvPR4b2RfZH/Naz8u0iTf+zOod+67qaHz39WlxwcjhyKHx7/ZSpOxv8cju0v7rT4Y1GR9nI6cGfKax6/JsiciyyMrIiuvGU9bzsf+/hr5bYb6eD2uwzYlcC1Ge3rXhjsauj68HLky5DXPRD2siqyOPBtZM6b6qOLzg1QMu/4Yt6rzq7r7KqAJ5evz8vXHG5HNQ14/36rOr+ruq4AmrK5Zvyvy9ixeD4zX4PnVsOfQJYPnV8OeAwAAAAAAAAAAAAAA7dg8kWVbItsjOyO7Ijsi6yNvlZ5DF32XjxaYT2sbHJNlLkadzxPmU3+M41GXbRl1Pk9IzaUisNjMxzzk9+ZXA4vNbOchfznOsTYW6Y3xeE9kSRHoqqrxHE9GHlAfUDme48WiPpYWYeHoz2M41yVTnqpZsvD05zGc6xIWo/48hnNdwmKzIvr2yjnmyTHXR935W3m9czzG4dnoV2vmmLVj7pt152/l9c7xGIeFUB/l87fyXFHrah7DfEm5PqruOTWXGk16IfrbizOkqh4GX/PSmPps1b0bJ9UHCRn8fBn3uVRZ1b0bF9UHCWmzPiB16gPqqQ+opz6gnvqAeuoD6g3+fWRcf+sAAAAAAAAAAAAAAAAAAAAAAACg2r/xlU1SAHECAA==
+  </data>
+ </layer>
+ <layer name="fringe" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dzYsbZRgA8EkKbdfqtT1U/xr9AxTF+rngqUf1oks9CVbWuF29SLtdvQhiLPQiSl2xfrT1KPTkWV3rQRBUrKcefKY7xSQ7kya6yftm5/eDh8lMZslD8j4z74TsPEUBAAAAAAAAAAAAAAAAAPXu7RTFfZ3UWdAGR2OcHes0r8/DUvV6hzv/Pq5zT/Xc/bF8QH3QEo+MjPW1blGsR5yJ2Gyog/OxvadGaLlzDTXwUWy/oD5u+716H3rdtHkwW5vx+b7rM4aJXXaOAP6j7YhLjiFQq6yNW6mTgAltxHg963gOAAAAAAAAAAAAAAAAAAAAAAC3HWn5PXlG79vf9vcjByvdoni+u7O8s17GC9X2eTgY4+BQxPGWjocfI34qdnpLHBroL9HW9yMnK2PWVxr2Ye+UfSX+iOWfNc9tqI/kViO+6w6vjz4e3MbsvBb1cDridXWRld8y6WdQ3ud5K8bGw6kTSaS8J+pqRF99ZOXXTOoDcve+Yxc0+lh9kNBzmY+/K5nnx/724sD468e8/72G6LsmSKrsKbdW9e9d81nMzauOzwth1eeUxI3OdEEa5733SdzsTBek4fwBzT5XH3BXer8DAAAAAAAAAAAAAAAAANMqeztcr/oajFryv4tQ/DBSBz332wIA2BOfxTzromsOAAAAIGPrVT+WSWK9O7z/NH87GvN0pFMURyOO+Z4GdjkedXG44fcUs3a94TWn3Q6zMPi7idHfVMxD+ZpvRQ5vd//fdmZvvVsfTXOpuvnQpHOvcdvmPb8C6m3G8XjDnIUF8EmM00+rgNyMm/eMmzNNuv/dvqe6FnXxbRXAsLI+rlYBDLumLmiZaedXzh9Qz/kDmjl/0DbTzq+Aej9HfdyI+EWdwC5/RV3cjPhbfQAAAAAAAAAAwNx82S2KryK+jvgm4krEVfeIAaDBgxPu873fg9JCj+7RPgDk6aRrZQD2oYdSJwAZeyx1AkAWTqROADJV9uY6mToJiuWIM6mTYJeyN9fLqZMAFkbZl/NgxFKi/pyQoze6RfFF1ENPfzUGbEe8lDqJBM5GDXw4UgeuAahzK3UCmVhOnQBkbDt1ApCRrQmuMy67FgGgxjnnB9ilH3VxqbPzPdYdWwPr5bKvdgAAAAAAAAAAAAAAAACGPH5gZ3miWj5RLZ+slk9Vy6cPzDcvAIBFdXrK/Z+JedazEcvmW7TAO6kTgIx9kDoBAAAAABaevtfQTN9r2u6VMc/pe01bNM2V3pxrFpCncq50qnp8amC7+iAXo/OVec5fytfqVY9743YEAAD2hZTXHwAAAAAAAAAAAAAAAAAAAAAAAAAAsNf+AYM0tjEAcQIA
+  </data>
+ </layer>
+ <layer name="top" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dz47cNBwH8NntBalQcV9YzvRCFzjTx+DKjRcBnq6Atn2YXplIHTVEcZLxJPYv8ecjWe3OjjbOxN/8cTL26QQAAAAAAAAAAAAAAAC3e3l/Or26snx5H6MeW9cJvspoV48btMWcevRtUafIrtmf2Hfkk498NdvoNZ9Xa/uONclHvpptVD7KkI988nF88pFPPo5PPvJFycfz3en0/lP5cLf9slsiH/mi5KP0slsiH/m6Ov9z3l//+2mf/e78798j+++OfOyTfOSr2UYfzn/v24XlG/nIFiUfS7f360BtoHYb/biwkC9KPjpz2/lS1275UdpAzTYqH9uTj9too8eWc16z1bnM0918Sb0PbrF0P7dkvw17NtaG5QMAAAAAAAAAAAAAAIA9WjLG9JHHP299/aOKMu/Iku/fH3n8qNbXP6oo40K03j5aX/+o5COG1tc/qoj56I/z3B/r+cjtQz5iipiPksuNovX1j0o+Ymh9/Yf20m/0y/nc5u25/NYb++1I+djLdui0lI8o++2HjL+5xbiNY+NHDsfA3mK5kbZDjfWPKsp2ieSL+8+lPxbe5bUtRNoOc2MctyTKdok0Zq58yMdFlO0SKR81RNkO/J/tEoPtEJPtEoPtEJPtEoPtENOwPy81n1+r/XulyEdM/TmX+n0Vc3M2sS75iGkuH5QhH5AmH5A2Ny/q2HWh60Ba0b9n3y9j97D7v4cWyAekpfIxNs+7fAAAAAAAAAC3umYMLnMc0JprniH27DCtkQ9Ikw9Ikw9IG8vH82Dukwv5oDWOH5AmH5A29x34lr/7njM/y5bF/ac6Pi4srckZX2ZLjt91yMe4VvIxd5wscdxK1eG7K193jC2nlXzMrWeJ41aqDt9f+bpjbDnyse1yl9RBPuKSj22Xu6QO8hFXq/n44+50+mvjOaPn6nAhH3G1mo9Sy11SB/mI65p7Q0vLmxu2n3zMvy4fZU31d6fGv5wqtxyTjpyP1JxdX1/5emv3sGtrIR9zx8lSbW5sfvGc1ymnhXx0pupcinwQNR8QgXxAmnxAWs6ceq1+v4A2zV27P1a+Toaa5APScvqF5QMAAAAAji1nPDPjodCKnGd7PNNDK+QD0uQD0uQD0uQD0nLy8VbfFo1Yezwzxxa2suRexNr7Z/lgL5a01bXbn3ywF/IBafIBafIR0zXPqOm/2458xGQ+6xjm5hzprP353zIe/9i4S0ccb0k+YjznXeP40Vk6F21/jOXhuDJHnq+2Zj5eZv69CPcBapzryEd5NfORe/4boR5HyccaWstHd+77Z4Hz32j5eD6v7/tz+XA3/f4t6pC6Fuif5x/x/D66PRw/nl6cTj+ey0/n8vOLGDndYl/+dDd9HkN5S/ZbW+2/oh0/atahIx8xLR33dm3R8lHz/Iq45KN+HWBIPiAtWj6G51dTP8sHW5t6vuF1oo8gSj+BfFBC12czLP322rXD4e/XJh9EJR8QW855nnvZtGRq/sPO1n3dEJl8AAAAAAAAtMdYgpBmrDRIkw9qiDB+4xLyQQ17eb5ePqhBPiBtL/PIygc17GUeDvmghjXy8ar3vWP54EjWyMejfHBQe8nH2Pf0fT8/T06ffqS+/pL2cv3R8f3jday5zY9+rJ4bP+Xy/zcLPwf5iE8+rjMc42s4Tnj32jBHqby08HntXeR83HLut9W53pJ8DMtDIivyEV/kfNxSt9ptbywnw6y4No5PPsoYywrxzc09nzp3/qFAX+GR8tEnH/syNiZhv+/j18H7u5+H/SCR5q3qRM4H+zKXj98H7+9+lg9It9ES7U8+iE4+IG3q+qPEsnPJByVMXX9sba5vLTXvoXsLlFLz/Koz1W9wqcflPrbniijtIbG/LrV/lg+iG7ZH7Q8+kw8AAAAAAAAAAAAAAAAAAAAAAIC6/gMBhW0IAHECAA==
+  </data>
+ </layer>
+ <layer name="collision" width="200" height="200" opacity="0.41">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bW24UMRAF0Ij9rySr5AsRhvZMP13X9rF0RJigdLmqbkBi8v3r6+sbAAAAAAAAAAAAAAAAACDcn1NdBySqzsfWqe5JIn2p63taPqpreldrxfNS+7GC6t4n5+NnDb1qS+7Hiqp7n7wP7/LxVH17T3VvRre3x0/3+8pJ6OG7ezzZr099rO7N6FJ28cpJ693r55989qeaqvdrdCm7eOUk9LD18VP1tb52Wm9Gl7KLV05CD1sfP1XfKL0ZXcouXjnpvaueMc/P+OlZXznVPWReI+1i9fNZz0j5gN7kA66RCwAAAAAAAAAAAAAAAABgNH6GGLat/vP2q9+fffvR+lx1fb3u/3pX+chS9X1MPuRjBNX56P3cFKvfP9XemchH3RxWuH8q+fj79V9/TZmDfNRJmUnVfqTsZUodvJ9RdQ29a0ndy6RZsK7UfKzu6Kmud1b6nmnvTMypbg76njmXrT9XXe+s5COTfGQ4eqrrXYUZZJCPfPpe23v5gG3yAW3yAW3yAefIAwAAAAAAAAAAyby/Bf7lvZGwzXuH4X/eWw9t73IgH6xOPqDNv6+gTT6gTT6AM5JOdS/gVdLpeefqvjO/3nt9Z80j1k5/SafqvpU9v/I6NftSdXrvZI/nfur1mdeZW8W85YO7ZtbzJNyzsoYzr5OxNz1Owj0razjzOnNL2c2EGs68ztiOnOpaK3t0x+uMRz7gPPlgZf7+gDb5gLazp7puqCYHAAAAAAAAAPfzf7EAAMDTvE8atvlZAmiTD2iTD0bTcy/lg1FU7OZdp7p3zK9iB+881f1jbvIBbVu7Jh+ZVrxzNfnIt/r9U3uf1v+f9STW13Mus9//XQ8Salih/8nezaHHfD49t8eetJ5fOQf5yFCdj0+70asHW/VUzkE+MqTno8eepO5kQg2rS9nLvTU9VcfW86tnQ6aeu5Gcj541wJYjJ6EG+aCXM+epOo78HnqQD2hLykd1DbBX7z2UD2iTD2iTDzhOHgAAAAAAAAAAAACe5f3N0CYfjKrHbsoHVa7unXwwqzv2Tj6Y1dXz82sk1FndT+Zy50mos7qfzGWUfLTqru7fiEac9+i9WqVfMzDve3p4tKfVNbN/tqPmY5Q9S+kX98wuJR+t51TUcvedquvg2Lyunl617am5uqfMIzkfZ2uu7ilrqdy99Kyytsr9O3uqe8Y65APa5APeq9o9+SBd5f7JB+lS9y+lDtaWmg9IIhcAAAAAAAAAAAAAAAAAAAAAADzpN2LSdoAAcQIA
+  </data>
+ </layer>
+ <objectgroup name="margin" width="200" height="200">
+  <object x="1296" y="177" width="640" height="6400"/>
+  <object x="20" y="5741" width="6400" height="640"/>
+  <object x="0" y="961" width="640" height="6400"/>
+  <object x="-540" y="3341" width="6400" height="640"/>
+ </objectgroup>
+ <objectgroup color="#00aa00" name="warps" width="200" height="200">
+  <object name="parafora2" type="warp" x="5088" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="116"/>
+    <property name="y" value="52"/>
+   </properties>
+  </object>
+  <object name="parafora3" type="warp" x="4096" y="640" width="32" height="32">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="99"/>
+    <property name="y" value="53"/>
+   </properties>
+  </object>
+  <object name="Parafora03" type="warp" x="2752" y="928">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="109"/>
+    <property name="y" value="46"/>
+   </properties>
+  </object>
+  <object name="paraforaloja2" type="warp" x="1664" y="1024">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="109"/>
+    <property name="y" value="64"/>
+   </properties>
+  </object>
+  <object name="para2ºandar" type="warp" x="1695" y="576" width="64" height="32">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="49"/>
+    <property name="y" value="62"/>
+   </properties>
+  </object>
+  <object name="Para1ºandar" type="warp" x="1568" y="2032" width="64" height="16">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="53"/>
+    <property name="y" value="19"/>
+   </properties>
+  </object>
+  <object name="paraVaranda" type="warp" x="1344" y="2080">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="110"/>
+    <property name="y" value="55"/>
+   </properties>
+  </object>
+  <object name="paraforacasa" type="warp" x="5600" y="1856">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="93"/>
+    <property name="y" value="57"/>
+   </properties>
+  </object>
+  <object name="parainfermaria" type="warp" x="4320" y="3168">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="138"/>
+    <property name="y" value="57"/>
+   </properties>
+  </object>
+  <object name="paraforadainfermaria" type="warp" x="4608" y="2208">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="84"/>
+    <property name="y" value="64"/>
+   </properties>
+  </object>
+  <object name="paraquarto" type="warp" x="4416" y="1792" width="32" height="32">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="135"/>
+    <property name="y" value="98"/>
+   </properties>
+  </object>
+  <object name="parainfermaria" type="warp" x="4512" y="3168">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="140"/>
+    <property name="y" value="57"/>
+   </properties>
+  </object>
+  <object name="parainfermaria" type="warp" x="4704" y="3168">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="142"/>
+    <property name="y" value="57"/>
+   </properties>
+  </object>
+  <object name="paraquarto" type="warp" x="4480" y="1792" width="32" height="32">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="141"/>
+    <property name="y" value="98"/>
+   </properties>
+  </object>
+  <object name="paraquarto" type="warp" x="4544" y="1792" width="32" height="32">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="147"/>
+    <property name="y" value="98"/>
+   </properties>
+  </object>
+  <object name="paraforacasa2" type="warp" x="3552" y="1856">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="73"/>
+    <property name="y" value="64"/>
+   </properties>
+  </object>
+  <object name="parafora4" type="warp" x="3264" y="2912" width="32" height="32">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="58"/>
+    <property name="y" value="57"/>
+   </properties>
+  </object>
+  <object name="Parafora1" type="warp" x="5632" y="2560" width="32" height="32">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="117"/>
+    <property name="y" value="46"/>
+   </properties>
+  </object>
+  <object name="ParaForadaLivraria" type="warp" x="2208" y="3360">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="47"/>
+    <property name="y" value="64"/>
+   </properties>
+  </object>
+  <object name="paraforadalojadepresentes" type="warp" x="5472" y="4096">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="33"/>
+    <property name="y" value="63"/>
+   </properties>
+  </object>
+  <object name="paraforadessacasa" type="warp" x="4256" y="4224">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="59"/>
+    <property name="y" value="28"/>
+   </properties>
+  </object>
+  <object name="paraforadobar" type="warp" x="3232" y="4544" width="64">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="42"/>
+    <property name="y" value="48"/>
+   </properties>
+  </object>
+  <object name="paraforadocasino" type="warp" x="2144" y="4448" width="64">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="62"/>
+    <property name="y" value="38"/>
+   </properties>
+  </object>
+  <object name="paraforadalojadearmo" type="warp" x="5536" y="5184" width="64">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="79"/>
+    <property name="y" value="48"/>
+   </properties>
+  </object>
+  <object name="paraforadobanco" type="warp" x="4256" y="5248">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="42"/>
+    <property name="y" value="34"/>
+   </properties>
+  </object>
+  <object name="para2ºandarbanco" type="warp" x="4608" y="5024" width="64" height="32">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="83"/>
+    <property name="y" value="55"/>
+   </properties>
+  </object>
+  <object name="para1ºandarbanco" type="warp" x="2656" y="1792" width="64">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="144"/>
+    <property name="y" value="158"/>
+   </properties>
+  </object>
+  <object name="paravarandabanco" type="warp" x="2432" y="1856">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="43"/>
+    <property name="y" value="28"/>
+   </properties>
+  </object>
+  <object name="paraforadohotel" type="warp" x="3136" y="5600">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="86"/>
+    <property name="y" value="35"/>
+   </properties>
+  </object>
+  <object name="pararebaixo" type="warp" x="1984" y="5664">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="99"/>
+    <property name="y" value="166"/>
+   </properties>
+  </object>
+  <object name="paracima" type="warp" x="3168" y="5280" width="32" height="32">
+   <properties>
+    <property name="map" value="hali001"/>
+    <property name="x" value="62"/>
+    <property name="y" value="176"/>
+   </properties>
+  </object>
+  <object name="paraforadaqui" type="warp" x="1120" y="4288">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="95"/>
+    <property name="y" value="64"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" name="Comentarios" width="200" height="200">
+  <object name="INFERMARIA" x="4447" y="1894" width="131" height="112"/>
+  <object name="LOJADEPORÇAO" x="2736" y="650" width="164" height="136"/>
+  <object name="LOJADEARCO/ESPADA" x="1426" y="768" width="178" height="134"/>
+  <object name="Quarto da Infermaria" x="4623" y="2985" width="125" height="83"/>
+  <object name="Quarto da Infermaria" x="4238" y="2992" width="125" height="83"/>
+  <object name="Quarto da Infermaria" x="4420" y="2990" width="125" height="83"/>
+  <object name="casapequena" x="5551" y="2637" width="101" height="49"/>
+  <object name="casapequena" x="5542" y="1670" width="101" height="49"/>
+  <object name="casapequena" x="3503" y="1691" width="101" height="49"/>
+  <object name="andar superior da loja de arco e espadas" x="1304" y="1843" width="187" height="96"/>
+  <object name="bliblioteca" x="2075" y="2973" width="261" height="243"/>
+ </objectgroup>
+ <objectgroup name="scripts" width="200" height="200">
+  <properties>
+   <property name="file-MaquinaCacaNiqueis" value="MaquinaCacaNiqueis.conf"/>
+   <property name="file-auron" value="auron.conf"/>
+   <property name="file-banco" value="banco.conf"/>
+   <property name="file-biblioteca" value="biblioteca.conf"/>
+   <property name="file-enfermeiras" value="enfermeiras.conf"/>
+   <property name="file-evil" value="EvilAdventury.conf"/>
+   <property name="file-fernando" value="fernando.conf"/>
+   <property name="file-gamalieu" value="gamalieu.conf"/>
+   <property name="file-josefina" value="josefina.conf"/>
+   <property name="file-malet" value="malet.conf"/>
+   <property name="file-pedro" value="pedro.conf"/>
+   <property name="file-vadre" value="vadre.conf"/>
+  </properties>
+ </objectgroup>
+</map>

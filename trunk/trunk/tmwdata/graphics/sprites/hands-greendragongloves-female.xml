@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/hands-greendragongloves-female.png" width="32" height="34"/>
+
+	<include file="hands-greendragongloves-male.xml"/>
+
+</sprite>

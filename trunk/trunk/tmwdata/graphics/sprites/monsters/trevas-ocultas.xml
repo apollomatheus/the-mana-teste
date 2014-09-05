@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/monsters/trevas-ocultas.png|R" width="10" height="10"/>
+
+	<action name="default" imageset="base">
+		<animation>
+			<frame index="1" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="0" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="2" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="4" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="3" offsetX="-8" offsetY="-32" delay="200"/>
+			<frame index="5" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="3" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="4" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="8" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="6" offsetX="-8" offsetY="-32" delay="200"/>
+			<frame index="7" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="10" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="9" offsetX="-8" offsetY="-32" delay="200"/>
+			<frame index="11" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="14" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="12" offsetX="-8" offsetY="-32" delay="200"/>
+			<frame index="13" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="16" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="15" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="17" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="15" offsetX="-8" offsetY="-32" delay="200"/>
+			<frame index="16" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="1" offsetX="-8" offsetY="-32" delay="100"/>
+			<frame index="0" offsetX="-8" offsetY="-32" delay="200"/>
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="default">
+			<frame index="19" offsetX="-8" offsetY="-32" delay="200"/>
+			<end/>
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+		<animation direction="default">
+			<frame index="18"/>
+		</animation>
+	</action>
+
+</sprite>

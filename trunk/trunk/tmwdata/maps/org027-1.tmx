@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="55" height="55" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Casa do Zelador"/>
+  <property name="pasta" value="casaZelador"/>
+ </properties>
+ <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="000000"/>
+ </tileset>
+ <tileset name="Woodland indoor" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="woodland_indoor_x2" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="Unbenannt2" firstgid="291" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <tileset name="Pots_x2" firstgid="339" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Pots_x2.png" trans="000000"/>
+ </tileset>
+ <tileset name="Teto" firstgid="371" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png"/>
+ </tileset>
+ <tileset name="porta_X3" firstgid="411" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png"/>
+ </tileset>
+ <tileset name="porta2_X3" firstgid="427" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <layer name="Ground" width="55" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3V0QnCMBSF4YA6QXUCiw5Q0A3UCdQJ1P0n8D4kcJC2JlS4pP6FD25uX86hkHYhhA4AAAAAAFRhEa1kTvul7PTsnTlXE21kTvu17PTsnTnXtsfQXt/XoDUnczaXeE77Id6ZS7pdzc3c6eaeeWq3Oejrlu58nZV35indmkhn5Z15Srd01+tc6z/gs9s33plLuj3M07xm2G1n9pm9aut2MMeZdivlnTnX0NOOvPPO/Ivv6Z2BbgAAAAAA4N+9AcSlsMBELwAA
+  </data>
+ </layer>
+ <layer name="Lower" width="55" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Vv44BQQDH8d0O4RHUnIpr/KnQ3FFxet6Ap/EoeoloeQMKahJHi59kJGcjskvWcPl+kl9mZneK32SSXccBAAAAAADvKOU6Ttq9fPahdca9vv/VtdW7Y7rnNRbMPGbeF7UuKXHNJ8rUQsd7ddW7Z87zpfHbc0c1revKRvOZMn92wQeMPOvxjb0rZR1iF5v2ysF2iQCC3Bteh/fezhJ/5ll9S3LKpzJ8QqewJc0YVco6U0WpKhGbpQJq+djT0Jmays+b/sP/Iz/3dtIPtYU9C2WpDGwXCcGvslV2tosAAAAAAAAAsOoIhEJYOUQvAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="55" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VwQkAIAwEwdi+JQhWYJOmAb+GwAzcf38XAQAAAAAA/HZGdQG8zdyqjgDa2b4NAAAAaOIC2TlxZkQvAAA=
+  </data>
+ </layer>
+ <layer name="Top" width="55" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ROQ7CMBRF0Z81sTamgknQsjpgPxgJGsAxnbFzjvSK2I2vEgEAAAD9mA8Rqy87ZM5fWwy1X162zLzxWHj7XltV2j5pq2uKbed0fhrZuuG2kpb/W4m2urRFXNKuabfnd09t77TV1XPbJr1xl9lD7m7bQNtsZL/c/7Oe2wAAAIDpuAOR4N6dRC8AAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="55" height="55" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3PSwrAIAxAweD9D929WD/QooYJDKi4yCsRUQAAAAD4XTTuM28na83bu7ZzaMvVVqrzjXptGYym/rt736+6Rq2ny9q22nJb26jz5rbV2b2zttxtvebdOwAAAADMeADvsg6LRC8AAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraCemitério" type="warp" x="832" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="org027"/>
+    <property name="dest_x" value="2816"/>
+    <property name="dest_y" value="2720"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

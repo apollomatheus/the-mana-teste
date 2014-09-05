@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/npcs/garca.png" width="36" height="42"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0" delay="1500"/>
+			<frame index="1" delay="2500"/>
+			<frame index="2" delay="5000"/>
+			<frame index="1" delay="80"/>
+		</animation>
+	</action>
+
+</sprite>

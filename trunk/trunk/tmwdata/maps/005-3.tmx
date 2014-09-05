@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="172" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Estabelecimento"/>
+  <property name="pasta" value="005-3_Estabelecimento"/>
+ </properties>
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="indoor_x3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="307" name="indoor_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="339" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="595" name="village" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="851" name="village_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Woodland_village_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="867" name="cabana_in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="947" name="cabana_in_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="963" name="numeros" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
+ </tileset>
+ <tileset firstgid="1073" name="blockWalls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1329" name="blockWalls_in_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/blockWalls_in_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="1345" name="placas_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/placas_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="1361" name="hlw_interno1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/hlw_interno1.png" width="512" height="320"/>
+ </tileset>
+ <layer name="ground" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dTW7TQBiAYbvkAKAeATgAyh2AA5SfNSDoGliwrrgDR+CauGKBFeVLZ4Q93zh5Fo9SRbE0I8/rOlmM98Mw7AEAAAAAAAAAJi92w/BhZftd/jzJ9aiRpcf9dddG9vkh13UjS49bH7TwtJGlx323ayP7/JDrWaHnFZ89Zulxv5y8KvR6No7a47LPD7n+Z81n9vF28q7Q+9k4ao/LPj/k0oc+iOlDH8T0oQ9i+tAHMX3og9hW+/g8+VLodjaO2uOyzw+5ttrHVscNAAAAAAAAAAAAAAAAAAAAAAAAsKbhahjGq/xxQI8eT2082VAfeqZUtK9mzXPItvaMsq31TJ6oj5p9znvYA93+uqyhto/Svc9b74GuD9ZQ08f9/4La+65W91f6YA21fdTed7m/YsuidXPsOTL390q99lHD71eUqr3e1jx/qddnMPn9CgAAAAAAAAAAAAAAAAAAAAAAlmf/K4jZ/4q19Hrttb8oPej12qsP1nIOa+sc5kCfzmFtncMc6NOlra1ev0PRp0vro9fvUGyfay/EXHsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACALbkZy7w5eH3o/VOy5wylPo1lPh68PvT+KdlzhlKla/qwh1/64AJ8H/+6Hf/9fcy32euPye8j7586fi57zlDq59he9pyhlD4gpg+I6QNi+oCYPiCmD4ittY71wTnQB8T0ATF9QEwfENMHxPQBMX1ATB8Q0wcAAAAAAAAAAAAAAADQwh89HWkwgBkCAA==
+  </data>
+ </layer>
+ <layer name="ground2" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cMWrDMBgGUBmydc3WNVvu0fYAJc3ekmRPb9CtR+0pYoENHqJg40i2m/fg4xdokYZPo0IAAAAAAAAAAIBlW019AJix9dQHAKCIlzqvmfJW56/cVeDudnU+MmVf8B6Qg37AdZ9BPyDlHPQDUn6CfsAt+gFphzrHTDkVvAcAAAAAAAAAAAAAAAAAAAAAAAAA8D89VeOzapLah6V6rsZn3SS1X0Ls4XvP2e0z3LKtxmfTJLVfQuzhV8/Z7TM8gtjD756z22cAAAAAAAAAAAAAAAAAAAAAAAAAAACYM/+3Q5r/28llyNsbZ7ueE/+3k8uQtzfOdg2PYMjbG2e7BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYgt9q6hMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUMIFwmNMuIAZAgA=
+  </data>
+ </layer>
+ <layer name="fringe" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dy27UVhwHYHvQUKiqhCJB7wlFKjeVAKXs6KosKJcHafsElE23qMuKyx4YeIFSXoC2SHSPxD5BsE9Qu+nfGltYo3HiRGPPePp90k/nzPHxGS/OGc9RonGSAAAAAAAAAADAdPVrthUWIosNXQvMmgM12wpLkeWGrqWOd9Ik2ZMOy0xW3xt5N3+9L8r38+zP28rHd+fnw7x5Hvkg5vaH6bDMZPWPIh+nw+OHovw8z+G8rTieOVg6txgTmvQo8nspTcnm8tGY28fSYZnJ6scjJ/K1cDrKM3m+ytuK40X/I5Fve0lyoWd90Lw/Wnqf1cjaJnkZuV+6NzxN650Do25Fbo/JnR2Mla2PJ5O7tErrkY1N8mZC58DdZLLrA+bJIPJgTB7uYKy27h/QRe4fUG21VF+b2lXAbFov1TemdhVA5kw/Sb6OnIuc3eyfYSZ0HgAAAAAAAAAAAAAAAAAAAAAAAECbiueS7U+37gvzaCHm/mLF/D9UeiYZ/B8txdxfjjzrJcnfkUGpfrr0TLJBRZ9Bae1U9WnD4/72ytE6jLMS8/jUHNwf/upvrxytQ5V7+foontM3mIP1Am3Lnnnz5w4CXTZ637g35v7xIvVMKNiM9QHVrA8AAAAAAAAAAAAAAAAAAAAAAAAY8vvtUM3vt9MUn71QzWcvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs2YhTZLFdFjfHWU/8n3kh8iP6XSvDabpeWQp1sByvg4ORnkgci3yU+R6OuyTeRX11yPrpWj7pPe238V4/V3kUuRy5Erkamkc6Ipszq7E3D2Vz/sjUX4RuRFZiDn/S2le/xP1f0fWR7ltq/mfHX+vN7lrh6atRta2yMu87/mY299EPo18FlnqvW2rM1YxDnTFemRji7zJ+34Z6+DkmKz06o1VjANdc7OUpsf9edeE3wQadityO3KnhXGP24PQMYPIg8jDjowLbfq1lDp+q/kdabvjwixqc/8BXXM3aWb/0dS40Cb7D6jW1D7B/oN5YP8B1ew/oJr9BwDA5NX9m/isjAsAAAAAAAAAAAAAAAB0x3833iW8gBkCAA==
+  </data>
+ </layer>
+ <layer name="top" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dO48bVRgG4Jl4geyadAkkiiJRQCjya1D4CYgiEiwFlyqXandFl0iEgtCCNhKXigglQUhc/wbQERpaoOCMPGZPLB/P2Jkz6zHPI30a2+fssS1974zHK42LAgAAAAAAAAAA1t/ZUOeO8flvb3WzzqkFYx929BzQtzgfj0ZFUYb7p+vHLi7R1xeKo6zvhBpHY/LBUH3S0LtbYfyFOXMOy8n247piJ0NtR/c/lQ8G6pUleveD8uj212V63qzL8kFkL9T+nDpYYa0HHb6ueZbJx6rkg1nTvr4b6vewr320xP429k1XLyhBPjgOVV8fFpOc/BWy8Xe52rHA8QPS7mReXz4YsoeZ1/8l9O6vmes3+WCg/tx6vJrGU7XsujAE8gFp8gEAAAAAAAAAAAAAAAAAAAAAADA8b4yK4q0e6s3Rcb9TWN5u1LfV7ybt1Ler31Eaz5kfPz6u54/LotiKalzPm65Z3b+ROR9PknPZJWV3Tm/cTvzeR/x4fPv8zPzZ+5Xc+Zi+j+/q7ff19od6+2O9/aneTrPcx2tjuOblI4e+8tHW6XJSFfkgZbavpr/TlzqGtPVU+Pun63qmXL98vFhOqiIfpCzbV1+FuteizoTee66u59cwHzH5IGXaV22PGz+3PK68FOZdrOvlnvJRfU/watFu+993CT28Noarab97Mxq/NWqfj1l95KP6XuC1ot12ev5xXj5Y4GrojesL6tqo/dy26+RyKfT62y230/OPS094nsXmuzJaXPdDPWiY01QwVMv0tXwAAAAAAAAAAAAAAAAAAAAADJPrt0Oa67eTyybse12/nVw24drOrt9OLv/HfMTW5T2wnjaht1y/nVw2JR+u304Om7Lvdf12crDvhcXsewEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYGJ31P2aJ0Nth9oJNQ51as6cGxmeF7o2m49vi6P+jr1TFsVeqP1QB6HeKyePvx622ydCFkKNQ70b7p8Nj5+L/vZCqGfrqvxRygfDUOXjixbz7i+x5oly8fg/8sFAVPn4rMW8Lzt4rsvRbflgCHKcf7QhHwyBfEBanI+9UPuhDjp+jlzrQm5xPu6Ger94/Fz8Zhi/nqhKauxWw7owBE2fr6rPQVcSVUmNtVkX1p18QFrT+ceqfZxrXehT3Md3Qh2G+iga7yIfXa4Lfcr1OcjnKzaBfECa8w9Ii/v481APZ8a7yEeX60KffL6CtKsN/xO/tmIf51oX+tTmf37rtC70ST4AAAAAAAAAAAAAAACAvvwLuB6s6oAZAgA=
+  </data>
+ </layer>
+ <layer name="top2" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dSU4bQRQG4GqzTjgB5AZkERYEiBKUsA5ciy0CybfgAGyRGDJAIAwJ0w44AZAVJfmxYrAhttuNv096+rvtkvUWVdUtWepOCQAAAAAAAAAAume/SOmgaBy/amH8XtHRdqCnnOf5fhFzfqiF8WfWB33kKs/36yfM+csmY9/VUhqt/V9PZaly73TeQpNsxec8v77kWmpfWwBU0HLZDUAFrJTdAAA9bf6BBACgNdO1RrXDdpHSjv/XAQAAAAAAAAAAAAAAAAAAAAAAAIAes1g0PwYA4H5zD3x++97X1/meatB9FX2uXjSe+V6PtXD7ztrhfP6mxPWxOtDItcj1yI3IbwPd74n+Un9k/o/k7966fgD0jX+1x8+bjX/ObwAAAAAAAAAAAAAAAAAAAAAAANXwPZ6P+CPyZ+Rm5JbnJwK03V7srfuRB5F/Iv/aewF4oX7FNW47cifyd+SuayBA2x3G3noUeRx5Enlq7wUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAesRYkdL7XOO5JnJN5vpQlN0VlO9jXgefck1ZD3DH17wuZnLNWh8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlXEDXwgi+YAZAgA=
+  </data>
+ </layer>
+ <layer name="collision" width="200" height="172" opacity="0.19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3V4W7rIAwGUNr3f+j9QroXdQkkAZvufNIRKCWerSTau5TyBgAAAAAAAAAAANhAb87ORs8BT3o6K3t/bVqbfcxKW3tG7yPv8OvC+ehnQ7x/03uuJyO1r3pNFv1syKGm50xv2ntm9P3q7KV973vviX4u5FDTc6Y37T0z+vb/gxVmpK07o2/fB7PNyrvZz+D7YLZVmdG774NVZmfFDFffa98DAAAAAAAAAAAAAAAAAAAAAAAAAHy/mug+YJaadt9zpmefSda+yGdFVs7Su67si32Vg/WprJoja2/sayTRvT41xy4zEa8crG2ie70zy6fZovslv5FE9/r0zNF9kN9R3s0eAAAAAAAAAAAAAAAAAAAAAAAAGFcT3QesVAbWuoe/4Gqi+2YPZWCt+0yuJrpv8rua6L4/zdG7Zp2BfK4muu+780b3wT7KwFr3wP9qovsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL5Lufk7fLNy8/fRc5BBRKJnhl4RiZ4ZetV8uvZEfqsbPTf0qPl07Ymc/S3I7Chn982oC5kcJWNdWKnm7FqWurBSzdm1LHVhpaNkrAsrHSVjXVip5uxalrqwUs3ZtSx1YaWjZKwLKx0lY12IUjarCwAAAAAAAAAAAAAAAOzjB1MjtWmAGQIA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0" visible="0">
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="896" y="4480" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="magin" width="200" height="172" visible="0">
+  <object x="1440" y="736" width="800" height="800"/>
+  <object x="0" y="192" width="640" height="640"/>
+  <object x="2240" y="1760" width="800" height="800"/>
+  <object x="1120" y="1792" width="800" height="800"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" name="warps" width="200" height="172" visible="0">
+  <object name="HB_Corredor1" type="warp" x="1184" y="1536" width="64" height="32">
+   <properties>
+    <property name="map" value="005-3"/>
+    <property name="x" value="82"/>
+    <property name="y" value="53"/>
+   </properties>
+  </object>
+  <object name="HB_Saguão" type="warp" x="2592" y="1744" width="64" height="16">
+   <properties>
+    <property name="map" value="005-3"/>
+    <property name="x" value="37"/>
+    <property name="y" value="49"/>
+   </properties>
+  </object>
+  <object name="HB_Saida" type="warp" x="896" y="1776" width="64" height="16">
+   <properties>
+    <property name="map" value="005"/>
+    <property name="x" value="48"/>
+    <property name="y" value="25"/>
+   </properties>
+  </object>
+  <object name="sairBar2" type="warp" x="1120" y="4656" width="32" height="16">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="2816"/>
+   </properties>
+  </object>
+  <object name="sairBar4" type="warp" x="1616" y="4576" width="16" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="1248"/>
+    <property name="dest_y" value="2784"/>
+   </properties>
+  </object>
+  <object name="sairBar3" type="warp" x="1472" y="4976" width="32" height="16">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="3008"/>
+   </properties>
+  </object>
+  <object name="sairBar1" type="warp" x="768" y="4976" width="32" height="16">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="800"/>
+    <property name="dest_y" value="3008"/>
+   </properties>
+  </object>
+  <object name="BancoSaida2" type="warp" x="2720" y="720" width="64" height="16">
+   <properties>
+    <property name="map" value="005"/>
+    <property name="x" value="70"/>
+    <property name="y" value="26"/>
+   </properties>
+  </object>
+  <object name="BancoSaida1" type="warp" x="2272" y="720" width="64" height="16">
+   <properties>
+    <property name="map" value="005"/>
+    <property name="x" value="61"/>
+    <property name="y" value="26"/>
+   </properties>
+  </object>
+  <object name="HB_Corredor2" type="warp" x="2592" y="1568" width="64" height="32">
+   <properties>
+    <property name="map" value="005-3"/>
+    <property name="x" value="82"/>
+    <property name="y" value="83"/>
+   </properties>
+  </object>
+  <object name="HB_Corredor1" type="warp" x="2592" y="2704" width="64" height="16">
+   <properties>
+    <property name="map" value="005-3"/>
+    <property name="x" value="82"/>
+    <property name="y" value="50"/>
+   </properties>
+  </object>
+  <object name="HB_Corredor3" type="warp" x="2592" y="2528" width="64" height="32">
+   <properties>
+    <property name="map" value="005-3"/>
+    <property name="x" value="33"/>
+    <property name="y" value="85"/>
+   </properties>
+  </object>
+  <object name="HB_Corredor2" type="warp" x="1024" y="2768" width="64" height="16">
+   <properties>
+    <property name="map" value="005-3"/>
+    <property name="x" value="82"/>
+    <property name="y" value="80"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="scripts" width="200" height="172" visible="0">
+  <properties>
+   <property name="file-banco" value="banco.conf"/>
+   <property name="file-hotel" value="hotel.conf"/>
+   <property name="file-hoteleiro" value="hoteleiro.conf"/>
+   <property name="file-ibegye" value="ibegye.conf"/>
+   <property name="file-mCacaNiqueis" value="MaquinaCacaNiqueis.conf"/>
+  </properties>
+ </objectgroup>
+</map>

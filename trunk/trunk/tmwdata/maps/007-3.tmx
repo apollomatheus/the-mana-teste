@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/007-3.png"/>
+  <property name="music" value="faradize_-_darknight_castle.ogg"/>
+  <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Caverna Monstruosa"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0parallax" value="0.0"/>
+  <property name="pasta" value="CavernaMonstruosa"/>
+ </properties>
+ <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="Cave x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="Interno X2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="163" name="Interno X3" tilewidth="32" tileheight="94">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="179" name="Interno" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cS0oDQRQF0A4O3IRbdeZ3rHEBxg+6Ag0uzic0REICEdP1qqrPgTtJJi+kC97tDhkGAAAAAAAAAAAAAAAAAACA8taRz+whINHP9f+RPQTNO88eoICXPa+/Rt4i7zveW083DqR7XAzDySJ7Cnp1lj0A0Iyv7AE4qjn0ikOcjgE27qJ73I9Z6iH8Ue/9YhVn4mnM89b5WEYeUqYCSrA/Q1m9nbnePg+Qa7t39d7DOL7ryE3kNnsQAKjEHPYrvRQAKGkO+xXA1NzHBX5rab9yH+r/av5+AaAXLe1XQDn6DAAAlOe5KFPZd79H9wNoj30BgJboHABQ3kXkMnKVPQgAaXQxAAAAAAAAAFrkeTe0oYazWsMMAOTz23kAAAAAAAAAdvEf3gAAAAAAAAAAAAAAAAAAQC2+AbWn7gGAOAEA
+  </data>
+ </layer>
+ <layer name="Top" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dUVKDMBQFUPqtG1DX5Bp0Ae5C3bd0poyIFEgaSnicM8OMP45tyc3jJVCbBgAAAAAAAAAAAAAAAAAAAAAAAACmPbXHc3u8bP1CCvo8Nc3X5fg+bf1q2KtzNh4vPz80cTLy0WbirT1e2+NdPigkUkZgbf36ApF0fUVub1F7NtQ6cnS56I/tlLH0MPL71D9fcJuI8+293pNsxOA8wrgl2VBD0plzjqXrLyLlpHRG+msbskEEXe5vXbOTiX1bY66MOB76eZn7vOSCIeu424vYDwIAMC9qj0r99CDl+UwBthft2qq/9xttnzzXVL2Ndv65buxcR7yfJMcwI/YE5x1p7pCTv3vqRznvufaejdweXU6Ys/dsdPoZSX1P1sDqM+wd79lDRr1n+Zb7qNSSOsz1QmueJ33YPDnZTkrdT7knecnflYs0crIfw+ddUq7JovQXW9GbrGfYY6w1Tp3DdZWoJeYp+M+1bR3UkLrIBUezZA6SizTm9VimepGj9RilxnaJ71uhLmNrikfKxprUFID41prr1RCiMJZhWur9UDnrfEdb/yCmufuhrGUAcC8511b6IgBy2ZuH5VxzQTnWlDnrP8tnfoXrIj57n1MH1A7Oro2Dkv/nc8nhO3vYsyX74rXsk0/lYkl9VDuozbX8pdSVW+uFesPepNSt1O+VraXeUSfXETC+LyYb8Gt4PSEbAAAAAAAAAAAAAAAAAAAAAOzNDwxtU9+AOAEA
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="100" visible="0" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2T227jMAwFjfz/Ry/6sEBg+CpRHEqZAwzatLF8OLQ/27Z9REREREREREREREREREREREREREREREREREREREREZAhbgQ6zcha61+iZ6Q5ZezwK3XUW9s5+wecq80WFnqMqv+ZxhXkzQs9Ygbe+ZvQWmZVmeRN67pl80jP1zN7q5LP7vco8maH3OdpnpGN6NvpZmnme3vPo3VZweXcePWPL/KM9Vd5ndOgdEy4/Xz/vzqXnfOJg3/tqprf+rlxV2unI0HumPD45n561yvNUaZ4VZ6/4XNydT89Z6f3YAvpWmmWfqw70nltc3jl94v/u/BnIzAoztITecaTPt9f90vux//6b66n+Fd4fesdZ78fRtfQs2e/IXbIdzRB6v1FOW66lZ4n2MeKZ+/X34y/0jnud9lxPz5P1nLW8SxV6v8mIM/+fOwtR/WecPeNZm7Hz6NC77XXacw49T5Vnb4aOGTnqRe+y12vrGfQcmb723io4mCX0/iK8tj4zv8BVKnerEtpRhFO6U2WuUrlbldCOIpzSnSqzff3cdp8rdNvn7O9UaEcR+15ltqxnsIqf6qH9ZDmlO1f1RXdr3WdWaDfZTunelKu9s++/01QO7YZ0Ss9QwRXdLWqXV2m9B+0l2mmLe3qOar6qdKsQ2kuk04gdzPyMvXFG93i6DzK0n2i/kXt5cx3tocVbhQ69iTrn7OwV6JkpKlWfwWrPfLT3UaE9jtjLqJ3uvZ39/exc2k3mDnoz+vzWe89OxHyjQrvJcJ/pKDq0v9mIDj1PdVfU/Wl3sxMVeg7Czxt/REfa3Spc5ekzQM+Q7aWajwodVqc1dO9qPggnFTqsztvQfav5OHNz93lUX9rfajwN3bOajytHT783oi/tb0WuQnejXdz5OXP19vuRu6Mdroqejz08TcuZo7vSLmU9WtNyblZX2qmsQ2tazs3uSruVNWjN23OzO9JeZR1a8vbMEd2u/k87lRp8J/q8o2T26gm9F2G5Ct1t3y96vqehHQjDXap1GzHjk9B7Eoa7VOo1cs670HsShu3r510yuoy6f2/oPQlDS0be7+o7WXMf/Z/ekzBEZdS5V/fInJ3ek+Qya97O9/251QG9K8nnKE++UylP5zq7puc+sjZHefPdGdMyF70nyecovddfJaJfT3ruQ+9K8jkK3emuX0t670d7EIaj0J1ae0fMMqMLGcNZ6F4iFTgK3UmkEt+hu4hUZCvQQURERERERERERERERERERERERERERERERERERERERETO+QdEtDCFgDgBAA==
+  </data>
+ </layer>
+ <objectgroup name="spawns" width="200" height="100" visible="0">
+  <object name="Esqueleto Pirata (3)" type="spawn" x="4608" y="736" width="864" height="704">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="303"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (2)" type="spawn" x="5504" y="736" width="288" height="704">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (2)" type="spawn" x="4288" y="736" width="288" height="704">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (3)" type="spawn" x="5088" y="1824" width="448" height="608">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto (retirado)" x="4288" y="1472" width="1280" height="256">
+   <properties>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="300"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Adaga (6)" type="spawn" x="4288" y="1760" width="768" height="672">
+   <properties>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="301"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (3)" type="spawn" x="3712" y="1536" width="544" height="512">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto (4)" type="spawn" x="3456" y="2080" width="800" height="352">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="704" y="1344" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1152" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1408" y="768" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3136" y="1024" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="1024" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3136" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3136" y="1216" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="1216" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3136" y="1312" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="1312" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3136" y="1408" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="1408" width="32" height="32"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="3184" y="896" width="32" height="32"/>
+  <object name="paraCima" type="warp" x="1408" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4736"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1216" y="1216" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4544"/>
+    <property name="dest_y" value="1056"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="768" y="1600" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4096"/>
+    <property name="dest_y" value="1440"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="3200" y="1504" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-2"/>
+    <property name="dest_x" value="1312"/>
+    <property name="dest_y" value="1184"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="3104" y="2528" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-2"/>
+    <property name="dest_x" value="1504"/>
+    <property name="dest_y" value="2656"/>
+   </properties>
+  </object>
+  <object name="paraDentro" type="warp" x="4288" y="1760" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-3"/>
+    <property name="dest_x" value="4288"/>
+    <property name="dest_y" value="1664"/>
+   </properties>
+  </object>
+  <object name="paraForaSala" type="warp" x="4288" y="1664" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-3"/>
+    <property name="dest_x" value="4288"/>
+    <property name="dest_y" value="1760"/>
+   </properties>
+  </object>
+  <object name="paraDentro" type="warp" x="5024" y="2240" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-3"/>
+    <property name="dest_x" value="5024"/>
+    <property name="dest_y" value="2144"/>
+   </properties>
+  </object>
+  <object name="paraForaSala" type="warp" x="5024" y="2144" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-3"/>
+    <property name="dest_x" value="5024"/>
+    <property name="dest_y" value="2240"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="200" height="100" visible="0">
+  <object name="Pedra de Emanar Alma" type="script" x="4416" y="2240" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+  <object name="Pedra de Emanar Alma" type="script" x="768" y="896" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
