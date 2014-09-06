@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="51" height="22" tilewidth="32" tileheight="32">
+ <tileset name="Mastro" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="tileset2.png"/>
+ </tileset>
+ <tileset name="Mastro x3" firstgid="161" tilewidth="32" tileheight="96">
+  <image source="tileset_x3.png"/>
+ </tileset>
+ <tileset name="navio" firstgid="163" tilewidth="32" tileheight="32">
+  <image source="navio.png"/>
+ </tileset>
+ <layer name="chao" width="51" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3O5WtVcQDH4V27u7s7sQOcc1Nf2DVbX9jd/kHmaxuchQGzxZ7O2YHdHc+Bc2HIkB2QO4Xz4T5w7jmc3/ekpcXFxcXFxcXF/Z9tYjNb2Mo2thfz3R3sZBe72cNe9pXARtB+cjjAQQ5xmCPh86Mc4zgnCr2Xy0lOcZoznOUc57kQYSP5vYXlhpvF3Qi6yCUuc4WrXOM6edzgJvncooDb3OEu97jPAx7yiMc8ibCRF56ZVBCenx9hI+gpz3jOC17yite84S3veM8HPvKJz3zhK9/4zg9+Bocm/CiVSN1GUGnXZShLOcpTgYpUojJVqEo1qlODmtSiNnWoSz3q04CGNEqkbiOosesmNKUZzWlBS1rRmja0pR3t6UBHOtGZLnSlG93pQc8UbwT18r83fehLP/ozgIG/7QwJpTOUDIaRSRbDGcHIv7AxiMERNpKNcn80YxjLOMYzgYlMYjJTyGYq05jODGYyi9nMYW4RO3/ayC5CcjfKRtA89+ezgIUsYjFLWMoylrOClaxiNWtYyzrWs4GNJbgR9+/1C3C+7U6IEQAA
+  </data>
+ </layer>
+ <layer name="fringe" width="51" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Oqw0AIBBEQarjUya0QIOcw+AQhGQmeXo3JQAAOJuvD8ClHo2PN3JUohq1jzeAbQHUa+zciBEAAA==
+  </data>
+ </layer>
+ <layer name="top" width="51" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3R1UpEUQCF4WN3gN1dYLdgx52N3lnY3d3dit31DPoIxnP5D8zAjIzBnH0uZpwFHxvOxVqHvSXp/yYdGSawoUopykxgQ5U61JvAhgUsYQVr9Td/BCAQ8QpvLAno18QGtrCDPRzgCCc4w0XwRg96sYs97Avo94AnvOANH/jCD6lIU59BMjZGsI4NbGIL29jBDW5xJ6M/DOGIQCSiEI0SFOs5EwzYWMEq1nCGc1zgEle4lvH/2kmRdO/9pzMXeQZsHOMEpxjCMFzhBnd5v6+TIkn//es7y1EhYHMZwQhBqIA+TWpQK/3tXRrQKGDzCIlIQrKAPu20Sr+/Sx/6MSBz6xFPyEcBCmX2fc2o9P17zGAWc5gXsLWARVSiCtUCOrXTjjZJ9x060IkudAvcOsAhmtCMFoHdmoxhHBOYxBSmFdi5xwMGFejWTgxiEWfkG5nIQjZyjHhDlVe84R0fCm0840UPc8wxR5l8AkO2sEKIEQAA
+  </data>
+ </layer>
+</map>
