@@ -3,6 +3,7 @@
 2010_sprites.zip d30c7a3e
 2010_tiles.zip 99a055a0
 2011_tmw.zip 62cc9733
+2014_maps.zip 469d98d2
 update_2010-11-02.zip f8bac20d
 update_2010-11-13.zip 5d491b8b
 update_2010-12-20.zip fc5b6d9b
